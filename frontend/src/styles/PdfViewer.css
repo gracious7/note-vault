@@ -1,0 +1,28 @@
+body {
+   background-color: #404040;
+   color: #fff;
+ }
+ 
+ #pages {
+   text-align: center;
+ }
+ 
+ .page {
+   width: 60%;
+   margin: 10px;
+   box-shadow: 0px 0px 5px #000;
+   animation: pageIn 1s ease;
+   transition: all 1s ease, width 0.2s ease;
+ }
+ 
+ @keyframes pageIn {
+   0% {
+     transform: translateX(-300px);
+     opacity: 0;
+   }
+   100% {
+     transform: translateX(0px);
+     opacity: 1;
+   }
+ }
+ 

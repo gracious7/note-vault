@@ -111,7 +111,7 @@ const Login = () => {
                 <input
                   type="email"
                   id="loginEmail"
-                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2"
+                  className="w-full  border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2"
                   value={loginEmail}
                   onChange={(e) => setLoginEmail(e.target.value)}
                 />

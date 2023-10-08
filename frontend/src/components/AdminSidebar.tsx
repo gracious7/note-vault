@@ -63,7 +63,7 @@ const AdminSidebar = () => {
             : {}
         }
       >
-        <h2 className="font-bold text-xl text-center">Note Vault</h2>
+        <h2 className="font-bold text-xl pl-4 text-[#777]">Note-<span className="text-[#4f92ff]">Vault</span></h2>
         <DivOne location={location} />
         {/* <DivTwo location={location} /> */}
         <DivThree location={location} />

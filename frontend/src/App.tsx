@@ -27,7 +27,8 @@ const AboutUS = lazy(() => import("./pages/AboutUs"));
 const ContactUs = lazy(() => import("./pages/ContactUs"));
 const Login = lazy(()=>import("./pages/Login"))
 const NewContribution = lazy(()=> import("./pages/NewContribution"))
-
+const Semester = lazy(()=> import("./components/Semester"))
+const PdfView  = lazy(()=>import("./components/View"))
 
 const App = () => {
   return (
@@ -77,6 +78,8 @@ const App = () => {
           <Route path="/admin/contactus" element={<ContactUs />} />
           <Route path="/admin/login" element={<Login />} />
           <Route path="/admin/newcontribution" element={<NewContribution />} />
+          <Route path="/admin/semester" element={<Semester />} />
+          <Route path="/admin/pdfview" element={<PdfView />} />
           
         </Routes>
       </Suspense>
