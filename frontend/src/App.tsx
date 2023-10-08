@@ -7,7 +7,7 @@ import {Button} from "@nextui-org/react";
 const Dashboard = lazy(() => import("./pages/Dashboard"));
 const Products = lazy(() => import("./pages/Products"));
 const Transaction = lazy(() => import("./pages/Transaction"));
-const Customers = lazy(() => import("./pages/Customers"));
+const TopContributer = lazy(() => import("./pages/TopContributer"));
 const NewProduct = lazy(() => import("./pages/management/NewProduct"));
 const ProductManagement = lazy(
   () => import("./pages/management/ProductManagement")
@@ -39,9 +39,9 @@ const App = () => {
             element={
               <Link to="/admin/dashboard" className="items-center justify-end ">
                 {/* <button>Visit Dashboard</button> */}
-                  <div className="items-center bg-[grey]">
-                    <div className="text-white">Welcome to Note Voult</div>
-                    <Button className="bg-[blue] text-white">Get started</Button>
+                  <div className="px-12rem w-[1fr] h-[100vh]  flex justify-center flex-col items-center bg-[Black] gap-6">
+                    <div className="text-white text-6xl md:text-8xl text-center text-bold">Welcome to <span className="text-[#888]">Note Vault</span></div>
+                    <Button className="bg-[#003cff] p-4 rounded-lg text-lg hover:bg-[#0000ff] hover:transition-all text-white">Get started</Button>
                   </div>
              
               </Link>
@@ -50,7 +50,7 @@ const App = () => {
 
           <Route path="/admin/dashboard" element={<Dashboard />} />
           <Route path="/admin/product" element={<Products />} />
-          <Route path="/admin/customer" element={<Customers />} />
+          <Route path="/admin/top-contributer" element={<TopContributer />} />
           <Route path="/admin/transaction" element={<Transaction />} />
 
           {/* Charts */}

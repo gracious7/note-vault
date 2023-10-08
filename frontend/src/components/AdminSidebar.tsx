@@ -90,7 +90,7 @@ const DivOne = ({ location }: { location: Location }) => (
         location={location}
       />
         <Li
-          url="/admin/customer"
+          url="/admin/top-contributer"
           text="Top Contributers"
           Icon={IoIosPeople}
           location={location}
