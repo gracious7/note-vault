@@ -24,12 +24,13 @@ const Stopwatch = lazy(() => import("./pages/apps/Stopwatch"));
 const Coupon = lazy(() => import("./pages/apps/Coupon"));
 const Toss = lazy(() => import("./pages/apps/Toss"));
 const AboutUS = lazy(() => import("./pages/AboutUs"));
+const ContactUs = lazy(() => import("./pages/ContactUs"));
 const Login = lazy(()=>import("./pages/Login"))
 
 
 const App = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="h-screen">
       <Router>
       <Suspense fallback={<Loader />}>
         <Routes>
@@ -72,6 +73,7 @@ const App = () => {
             element={<TransactionManagement />}
           />
           <Route path="/admin/aboutus" element={<AboutUS />} />
+          <Route path="/admin/contactus" element={<ContactUs />} />
           <Route path="/admin/login" element={<Login />} />
         </Routes>
       </Suspense>
