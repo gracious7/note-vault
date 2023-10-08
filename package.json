@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@mui/icons-material": "^5.14.12",
+    "@mui/lab": "^5.0.0-alpha.147",
+    "@mui/material": "^5.14.12",
+    "@mui/types": "^7.2.5",
+    "react-icons": "^4.11.0",
+    "react-modal": "^3.16.1"
+  }
+}

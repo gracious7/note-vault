@@ -1,76 +1,124 @@
-import { useState, ChangeEvent } from "react";
-import AdminSidebar from "../../components/AdminSidebar";
+import { ReactElement, useCallback, useState } from "react";
+import AdminSidebar from "../components/AdminSidebar";
+import TableHOC from "../components/TableHOC";
+import { Column } from "react-table";
+import { Link } from "react-router-dom";
+import { FaPlus } from "react-icons/fa";
 
-const NewProduct = () => {
-  const [name, setName] = useState<string>("");
-  const [price, setPrice] = useState<number>();
-  const [stock, setStock] = useState<number>();
-  const [photo, setPhoto] = useState<string>();
+interface DataType {
+  photo: ReactElement;
+  name: string;
+  price: number;
+  stock: number;
+  action: ReactElement;
+}
 
-  const changeImageHandler = (e: ChangeEvent<HTMLInputElement>) => {
-    const file: File | undefined = e.target.files?.[0];
+const columns: Column<DataType>[] = [
+  {
+    Header: "Photo",
+    accessor: "photo",
+  },
+  {
+    Header: "Name",
+    accessor: "name",
+  },
+  {
+    Header: "Price",
+    accessor: "price",
+  },
+  {
+    Header: "Stock",
+    accessor: "stock",
+  },
+  {
+    Header: "Action",
+    accessor: "action",
+  },
+];
 
-    const reader: FileReader = new FileReader();
+const img =
+  "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8&w=1000&q=804";
 
-    if (file) {
-      reader.readAsDataURL(file);
-      reader.onloadend = () => {
-        if (typeof reader.result === "string") setPhoto(reader.result);
-      };
-    }
-  };
+const img2 = "https://m.media-amazon.com/images/I/514T0SvwkHL._SL1500_.jpg";
+
+const arr: DataType[] = [
+  {
+    photo: <img src={img} alt="Shoes" />,
+    name: "Puma Shoes Air Jordan Cook Nigga 2023",
+    price: 690,
+    stock: 3,
+    action: <Link to="/admin/product/sajknaskd">Manage</Link>,
+  },
+
+  {
+    photo: <img src={img2} alt="Shoes" />,
+    name: "Macbook",
+    price: 232223,
+    stock: 213,
+    action: <Link to="/admin/product/sdaskdnkasjdn">Manage</Link>,
+  },
+  {
+    photo: <img src={img} alt="Shoes" />,
+    name: "Puma Shoes Air Jordan Cook Nigga 2023",
+    price: 690,
+    stock: 3,
+    action: <Link to="/admin/product/sajknaskd">Manage</Link>,
+  },
+
+  {
+    photo: <img src={img2} alt="Shoes" />,
+    name: "Macbook",
+    price: 232223,
+    stock: 213,
+    action: <Link to="/admin/product/sdaskdnkasjdn">Manage</Link>,
+  },
+  {
+    photo: <img src={img} alt="Shoes" />,
+    name: "Puma Shoes Air Jordan Cook Nigga 2023",
+    price: 690,
+    stock: 3,
+    action: <Link to="/admin/product/sajknaskd">Manage</Link>,
+  },
+
+  {
+    photo: <img src={img2} alt="Shoes" />,
+    name: "Macbook",
+    price: 232223,
+    stock: 213,
+    action: <Link to="/admin/product/sdaskdnkasjdn">Manage</Link>,
+  },
+  {
+    photo: <img src={img2} alt="Shoes" />,
+    name: "Macbook",
+    price: 232223,
+    stock: 213,
+    action: <Link to="/admin/product/sdaskdnkasjdn">Manage</Link>,
+  },
+];
+
+const Products = () => {
+  const [data] = useState<DataType[]>(arr);
+
+  const Table = useCallback(
+    TableHOC<DataType>(
+      columns,
+      data,
+      "dashboard-product-box",
+      "Products",
+      true
+    ),
+    []
+  );
 
   return (
     <div className="admin-container">
       <AdminSidebar />
-      <main className="product-management">
-        <article>
-          <form>
-            <h2>New Product</h2>
-            <div>
-              <label>Name</label>
-              <input
-                required
-                type="text"
-                placeholder="Name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-              />
-            </div>
-            <div>
-              <label>Price</label>
-              <input
-                required
-                type="number"
-                placeholder="Price"
-                value={price}
-                onChange={(e) => setPrice(Number(e.target.value))}
-              />
-            </div>
-            <div>
-              <label>Stock</label>
-              <input
-                required
-                type="number"
-                placeholder="Stock"
-                value={stock}
-                onChange={(e) => setStock(Number(e.target.value))}
-              />
-            </div>
-
-            <div>
-              <label>Photo</label>
-              <input required type="file" onChange={changeImageHandler} />
-            </div>
-
-            {photo && <img src={photo} alt="New Image" />}
-
-            <button type="submit">Create</button>
-          </form>
-        </article>
-      </main>
+      <main>{Table()}</main>
+      <Link to="/admin/product/new" className="create-product-btn">
+        <FaPlus />
+      </Link>
     </div>
   );
 };
 
-export default NewProduct;
+export default Products;

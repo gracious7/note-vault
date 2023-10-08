@@ -5,7 +5,7 @@ import Loader from "./components/Loader";
 import {Button} from "@nextui-org/react";
 
 const Dashboard = lazy(() => import("./pages/Dashboard"));
-const Products = lazy(() => import("./pages/Products"));
+const Products = lazy(() => import("./pages/NewContribution"));
 const Transaction = lazy(() => import("./pages/Transaction"));
 const Customers = lazy(() => import("./pages/Customers"));
 const NewProduct = lazy(() => import("./pages/management/NewProduct"));
@@ -26,6 +26,7 @@ const Toss = lazy(() => import("./pages/apps/Toss"));
 const AboutUS = lazy(() => import("./pages/AboutUs"));
 const ContactUs = lazy(() => import("./pages/ContactUs"));
 const Login = lazy(()=>import("./pages/Login"))
+const NewContribution = lazy(()=> import("./pages/NewContribution"))
 
 
 const App = () => {
@@ -75,6 +76,8 @@ const App = () => {
           <Route path="/admin/aboutus" element={<AboutUS />} />
           <Route path="/admin/contactus" element={<ContactUs />} />
           <Route path="/admin/login" element={<Login />} />
+          <Route path="/admin/newcontribution" element={<NewContribution />} />
+          
         </Routes>
       </Suspense>
     </Router>
