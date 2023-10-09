@@ -9,6 +9,7 @@ const Products = lazy(() => import("./pages/NewContribution"));
 const Transaction = lazy(() => import("./pages/Transaction"));
 const TopContributer = lazy(() => import("./pages/TopContributer"));
 const NewProduct = lazy(() => import("./pages/management/NewProduct"));
+const Subjects = lazy(() => import("./components/Subjects"));
 const ProductManagement = lazy(
   () => import("./pages/management/ProductManagement")
 );
@@ -46,7 +47,6 @@ const App = () => {
                   <div className="text-white text-6xl md:text-8xl text-center text-bold">Welcome to <span className="text-[#888]">Note-</span><span className="text-[#4f92ff]">Vault</span></div>
                   <Button className="bg-[#003cff] px-4 py-3 rounded-lg text-lg hover:bg-[#0000ff] hover:transition-all text-white">Get started</Button>
                 </div>
-           
             </Link>
             }
           />
@@ -55,6 +55,7 @@ const App = () => {
           <Route path="/admin/product" element={<Products />} />
           <Route path="/admin/top-contributer" element={<TopContributer />} />
           <Route path="/admin/transaction" element={<Transaction />} />
+          <Route path="/admin/subjects" element={<Subjects />} />
 
           {/* Charts */}
 
