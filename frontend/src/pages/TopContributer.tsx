@@ -179,7 +179,7 @@ const TopContributer = () => {
   return (
     <div className="admin-container">
       <AdminSidebar />
-      <main>{Table()}</main>
+      <main className="dashboard">{Table()}</main>
     </div>
   );
 };

@@ -13,6 +13,9 @@ const BookSection = () => {
 
   return (
     <div className="w-full">
+      <a href="/admin/subjects">
+      <button  className="absolute bottom-4 right-[4%] bg-[#3474ec] hover:bg-[#2559bb] text-white font-bold py-2 px-4 rounded-lg ">Back</button>
+      </a>
       <div className="flex justify-center mt-8 mb-4">
         <button
           onClick={() => toggleTab("books")}
@@ -46,32 +49,37 @@ const BookSection = () => {
             {/* <h2 className="text-2xl font-bold mt-2 text-center">Books Section</h2> */}
             <div className="overflow-x-auto">
               <table className="min-w-full bg-white border rounded-lg shadow">
-                <thead className="bg-gray-800 text-white">
+                <thead className="bg-gray-800 text-white ">
                   <tr>
-                    <th className="py-2 px-4 text-center">Book Names</th>
+                    <th className="py-2 px-4 text-center ">Book Names</th>
                     <th className="py-2 px-4 text-center">Contributed By</th>
                     <th className="py-2 px-4 text-center">Upload Date</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
+                  <tr className="text-center">
                      <a href="/admin/pdfview">
-                    <td  className="py-2 px-4 text-center">B. P. Lathi, Zhi Ding Modern Digital and Analog Communication Systems-Oxford University Press (2009).pdf</td>
+                    <td  className="py-2 px-4 text-center">B. P. Lathi, Zhi Ding Modern Digital and Analog Communication System.pdf</td>
                     </a>
                     <td className="py-2 px-4 text-center">Sahyog-The Mentorship Club</td>
                     <td className="py-2 px-4 text-center">2023-10-15</td>
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
-                    <td className="py-2 px-4 text-center">EE320A-Principles-Of-Communication-CommunicationSystems-4ed-Haykin.pdf</td>
+                  <tr className="text-center">
+                     <a href="#">
+                    <td className="py-2 px-4 text-center">EE320A-Principles-Of-Communication-CommunicationSystems.pdf</td>
+                    </a>
                     <td className="py-2 px-4 text-center">Sahyog-The Mentorship Club</td>
                     <td className="py-2 px-4 text-center">2023-10-15</td>
+
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
-                    <td className="py-2 px-4 text-center">Ctheory_and_design_of_digital_communication_systems_by_tri_t._ha.pdf</td>
+                  <tr className="text-center">
+                     <a href="#">
+                    <td className="py-2 px-4 text-center">Ctheory_and_design_of_digital_communication_systems.pdf</td>
+                     </a>
                     <td className="py-2 px-4 text-center">Sahyog-The Mentorship Club</td>
                     <td className="py-2 px-4 text-center">2023-10-15</td>
                   </tr>
@@ -137,6 +145,7 @@ const BookSection = () => {
           </div>
         )}
       </div>
+      
     </div>
   );
 };
