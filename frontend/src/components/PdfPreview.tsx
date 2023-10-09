@@ -14,7 +14,7 @@ const PdfViewer: React.FC<PdfViewerProps> = ({ pdfUrl }) => {
    <AdminSidebar />
       <main className="dashboard">
          <div className="flex items-center justify-center h-screen">
-            <div className="bg-white rounded-lg shadow-lg p-4 w-full"> {/* Adjusted width to xl:w-3/5 */}
+            <div className="bg-white rounded-lg shadow-lg p-4 w-full mr-4"> 
                <h4 className="text-center text-xl font-semibold mb-4">A book is a dream that you hold in your hand.</h4>
                   <div className="aspect-w-16 aspect-h-9">
                      <iframe

@@ -29,6 +29,7 @@ const Login = lazy(()=>import("./pages/Login"))
 const NewContribution = lazy(()=> import("./pages/NewContribution"))
 const Semester = lazy(()=> import("./components/Semester"))
 const PdfView  = lazy(()=>import("./components/View"))
+const BookSection = lazy(()=>import("./pages/BookSection"))
 
 const App = () => {
   return (
@@ -40,13 +41,13 @@ const App = () => {
             path="/"
             element={
               <Link to="/admin/dashboard" className="items-center justify-end ">
-                {/* <button>Visit Dashboard</button> */}
-                  <div className="px-12rem w-[1fr] h-[100vh]  flex justify-center flex-col items-center bg-[Black] gap-6">
-                    <div className="text-white text-6xl md:text-8xl text-center text-bold">Welcome to <span className="text-[#888]">Note Vault</span></div>
-                    <Button className="bg-[#003cff] p-4 rounded-lg text-lg hover:bg-[#0000ff] hover:transition-all text-white">Get started</Button>
-                  </div>
-             
-              </Link>
+              {/* <button>Visit Dashboard</button> */}
+                <div className="px-12rem w-[1fr] h-[100vh]  flex justify-center flex-col items-center bg-[Black] gap-6">
+                  <div className="text-white text-6xl md:text-8xl text-center text-bold">Welcome to <span className="text-[#888]">Note-</span><span className="text-[#4f92ff]">Vault</span></div>
+                  <Button className="bg-[#003cff] px-4 py-3 rounded-lg text-lg hover:bg-[#0000ff] hover:transition-all text-white">Get started</Button>
+                </div>
+           
+            </Link>
             }
           />
 
@@ -80,6 +81,7 @@ const App = () => {
           <Route path="/admin/newcontribution" element={<NewContribution />} />
           <Route path="/admin/semester" element={<Semester />} />
           <Route path="/admin/pdfview" element={<PdfView />} />
+          <Route path="/admin/booksection" element={<BookSection/>} />
           
         </Routes>
       </Suspense>

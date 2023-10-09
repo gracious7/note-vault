@@ -1,13 +1,13 @@
-import React from 'react';
-
 import PdfViewer from './PdfPreview';
+import { selectedPdfUrl } from '../pages/BookSection';
 
 function View() {
-   const pdfUrl = "https://drive.google.com/file/d/1jMzhKL3f9R1DnIin9Ac7oIvlHzqArjdp/preview"
+  // Provide a default value (empty string) if selectedPdfUrl is null
+   const pdfurl = "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview"
 
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <PdfViewer pdfUrl={pdfUrl} />
+      <PdfViewer pdfUrl={pdfurl} />
     </div>
   );
 }

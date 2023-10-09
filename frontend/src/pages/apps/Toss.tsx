@@ -2,13 +2,10 @@ import { useState, useRef } from "react";
 import AdminSidebar from "../../components/AdminSidebar";
 import music from "../../assets/music/soothing_music.mp3"; // Replace with the actual path
 import {
-  Card,
-  CardBody,
   Image,
   Button,
-  Progress,
 } from "@nextui-org/react";
-import { FaHeart, FaPauseCircle, FaPlay, FaStepForward, FaStepBackward, FaSyncAlt, FaRandom } from "react-icons/fa"; // Import icons from react-icons
+import {FaPauseCircle, FaPlay,FaSyncAlt } from "react-icons/fa"; // Import icons from react-icons
 
 const Toss: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
