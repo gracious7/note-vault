@@ -1,5 +1,4 @@
 import PdfViewer from './PdfPreview';
-import { selectedPdfUrl } from '../pages/BookSection';
 
 function View() {
   // Provide a default value (empty string) if selectedPdfUrl is null

@@ -111,7 +111,7 @@ const Login = () => {
                 <input
                   type="email"
                   id="loginEmail"
-                  className="w-full  border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2"
+                  className="w-full  border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2 border-2"
                   value={loginEmail}
                   onChange={(e) => setLoginEmail(e.target.value)}
                 />
@@ -123,7 +123,7 @@ const Login = () => {
                 <input
                   type="password"
                   id="loginPassword"
-                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2"
+                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2 border-2"
                   value={loginPassword}
                   onChange={(e) => setLoginPassword(e.target.value)}
                 />
@@ -157,7 +157,7 @@ const Login = () => {
                 <input
                   type="text"
                   id="signupFullName"
-                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2"
+                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2 border-2"
                   value={signupFullName}
                   onChange={(e) => setSignupFullName(e.target.value)}
                 />
@@ -169,7 +169,7 @@ const Login = () => {
                 <input
                   type="text"
                   id="signupBranch"
-                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2"
+                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2 border-2"
                   value={signupBranch}
                   onChange={(e) => setSignupBranch(e.target.value)}
                 />
@@ -181,7 +181,7 @@ const Login = () => {
                 <input
                   type="text"
                   id="signupSemester"
-                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2"
+                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2 border-2"
                   value={signupSemester}
                   onChange={(e) => setSignupSemester(e.target.value)}
                 />
@@ -193,7 +193,7 @@ const Login = () => {
                 <input
                   type="email"
                   id="signupEmail"
-                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2"
+                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2 border-2"
                   value={signupEmail}
                   onChange={(e) => setSignupEmail(e.target.value)}
                 />
@@ -205,7 +205,7 @@ const Login = () => {
                 <input
                   type="text"
                   id="signupGender"
-                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2"
+                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2 border-2"
                   value={signupGender}
                   onChange={(e) => setSignupGender(e.target.value)}
                 />
@@ -217,7 +217,7 @@ const Login = () => {
                 <input
                   type="password"
                   id="signupPassword"
-                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2"
+                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2 border-2"
                   value={signupPassword}
                   onChange={(e) => setSignupPassword(e.target.value)}
                 />
@@ -229,7 +229,7 @@ const Login = () => {
                 <input
                   type="password"
                   id="confirmPassword"
-                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2"
+                  className="w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:border-blue-300 px-2 border-2"
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
                 />

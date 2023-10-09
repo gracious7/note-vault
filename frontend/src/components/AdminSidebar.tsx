@@ -77,7 +77,7 @@ const AdminSidebar = () => {
 
 const DivOne = ({ location }: { location: Location }) => (
   <div>
-    <h5>Dashboard</h5>
+    <h5 className="font-bold text-xl">Dashboard</h5>
     <ul>
       <Li
         url="/admin/dashboard"
@@ -85,6 +85,12 @@ const DivOne = ({ location }: { location: Location }) => (
         Icon={RiDashboardFill}
         location={location}
       />
+          <Li
+            url="/admin/newcontribution"
+            text="Contribute"
+            Icon={RiShoppingBag3Fill}
+            location={location}
+          />
         <Li
           url="/admin/top-contributer"
           text="Top Contributers"
@@ -100,18 +106,6 @@ const DivOne = ({ location }: { location: Location }) => (
       <Li
         url="/admin/contactus"
         text="Contact Us"
-        Icon={AiFillFileText}
-        location={location}
-      />
-      <Li
-        url="/admin/newcontribution"
-        text="Contribute"
-        Icon={RiShoppingBag3Fill}
-        location={location}
-      />
-      <Li
-        url="/admin/transaction"
-        text="Transaction"
         Icon={AiFillFileText}
         location={location}
       />

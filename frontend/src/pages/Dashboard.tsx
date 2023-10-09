@@ -29,11 +29,11 @@ const dashboard = () => {
         <div className="bar">
           <BsSearch />
           <input type="text" placeholder="Search for data, users, docs" />
-          <FaRegBell />
-          <img src={userImg} alt="User" />
+          
         </div>
+        <h1 className="text-center font-bold text-3xl mt-8" >Select your branch</h1><br/>
 
-        <section className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 items-center justify-center text-center ">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 items-center justify-center text-center ">
           
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg">
             <a href="/admin/semester">
@@ -109,10 +109,10 @@ const dashboard = () => {
           </div>
           
           
-        </section>
+        </div>
 
 
-        <section className="transaction-container">
+        {/* <section className="transaction-container">
           <div className="gender-chart">
             <h2>Gender Ratio</h2>
 
@@ -128,7 +128,7 @@ const dashboard = () => {
           </div>
 
           <Table data={data.transaction} />
-        </section>
+        </section> */}
       </main>
     </div>
   );
