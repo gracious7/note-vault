@@ -2,11 +2,9 @@ import { useState, useRef } from "react";
 import AdminSidebar from "../../components/AdminSidebar";
 import music from "../../assets/music/soothing_music.mp3"; // Replace with the actual path
 import {
-  Image,
   Button,
 } from "@nextui-org/react";
 import {FaPauseCircle, FaPlay,FaSyncAlt } from "react-icons/fa"; // Import icons from react-icons
-import songimg from "../../assets/images/b4.jpeg"
 
 const Toss: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
@@ -34,14 +32,6 @@ const Toss: React.FC = () => {
         <section>
           <div className="audio-controls">
             <audio ref={audioRef} src={music} loop={isLooping} />
-            <div className="flex items-center justify-center">
-              <Image
-                src={''} // Replace with the actual image path
-                alt="Song Image"
-                width={100}
-                height={100}
-              />
-            </div>
             <div className="text-center mt-4">
               <h2 className="font-bold">Soothing Music</h2> {/* Replace with the actual song name */}
             </div>

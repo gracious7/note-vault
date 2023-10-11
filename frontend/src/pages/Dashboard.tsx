@@ -1,11 +1,7 @@
-import { FaRegBell } from "react-icons/fa";
+
 import AdminSidebar from "../components/AdminSidebar";
 import { BsSearch } from "react-icons/bs";
-import userImg from "../assets/userpic.png";
-import data from "../assets/data.json";
-import {  DoughnutChart } from "../components/Charts";
-import { BiMaleFemale } from "react-icons/bi";
-import Table from "../components/DashboardTable";
+
 import b1 from "../assets/images/b1.jpg"
 import b2 from "../assets/images/b2.jpg"
 import b3 from "../assets/images/b3.jpg"
@@ -31,7 +27,7 @@ const dashboard = () => {
           <input type="text" placeholder="Search for data, users, docs" />
           
         </div>
-        <h1 className="text-center font-bold text-3xl mt-8" >Select your branch</h1><br/>
+        <h1 className="text-center font-bold text-3xl mt-8" >Select your Branch</h1><br/>
 
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 items-center justify-center text-center ">
           

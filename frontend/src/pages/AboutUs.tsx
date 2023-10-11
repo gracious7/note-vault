@@ -1,4 +1,6 @@
 import t1 from '../assets/images/Shayan.jpeg';
+import t2 from '../assets/images/pranjal.jpeg'
+import t3 from '../assets/images/prince.jpg'
 import gi1 from '../assets/images/gi1.png';
 import gi2 from '../assets/images/gi2.png';
 import gi3 from '../assets/images/gi3.png';
@@ -87,21 +89,21 @@ const AboutUS = () => {
                 <img className="w-[50%] mb-4 rounded-full hover:scale-110 shadow-xl transition-transform duration-300 ease-in-out" alt="Member1" src={t1} />
                 <div className="text-center">
                   <div className="text-lg font-bold font-sans">Shayan Khan</div>
-                  <div className="text-lg font-bold font-sans">Designer, Frontend</div>
+                  <div className="text-lg font-bold font-sans">Designer,Developer</div>
                 </div>
               </div>
               <div className="w-[20rem] flex flex-col items-center shadow-lg py-4 rounded-xl">
-                <img className="w-[50%] mb-4 rounded-full hover:scale-110 transition-transform duration-300 ease-in-out" alt="Member2" src={t1} />
+                <img className="w-[50%] mb-4  hover:scale-110 transition-transform duration-300 ease-in-out rounded-full" alt="Member2" src={t2} />
                 <div className="text-center">
                   <div className="text-lg font-bold font-sans">Pranjal Naman</div>
                   <div className="text-lg font-bold font-sans">Leader, Frontend</div>
                 </div>
               </div>
               <div className="w-[20rem] flex flex-col items-center shadow-lg py-4 rounded-xl">
-                <img className="w-[50%] mb-4 rounded-full hover:scale-110 transition-transform duration-300 ease-in-out" alt="Member3" src={t1} />
+                <img className="w-[50%] mb-4 rounded-full hover:scale-110 transition-transform duration-300 ease-in-out" alt="Member3" src={t3} />
                 <div className="text-center">
                   <div className="text-lg font-bold font-sans">Prince Tripathi</div>
-                  <div className="text-lg font-bold font-sans">Backend</div>
+                  <div className="text-lg font-bold font-sans">Backend Developer</div>
                 </div>
               </div>
             </div>
