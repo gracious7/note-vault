@@ -32,7 +32,6 @@ const Semester = lazy(()=> import("./components/Semester"))
 const PdfView  = lazy(()=>import("./components/View"))
 const BookSection = lazy(()=>import("./pages/BookSection"))
 
-
 const App = () => {
   return (
     <div className="h-screen">
@@ -84,6 +83,7 @@ const App = () => {
           <Route path="/admin/semester" element={<Semester />} />
           <Route path="/admin/pdfview" element={<PdfView />} />
           <Route path="/admin/booksection" element={<BookSection/>} />
+          
         </Routes>
       </Suspense>
     </Router>

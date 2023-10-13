@@ -11,9 +11,4 @@ export default defineConfig({
       },
     },
   },
-  server:{
-    proxy:{
-      '/': 'http://localhost:5173/'
-    }
-  }
 })
