@@ -41,13 +41,13 @@ const App = () => {
           <Route
             path="/"
             element={
-             
+              <Link to="/admin/dashboard" className="items-center justify-end ">
+              {/* <button>Visit Dashboard</button> */}
                 <div className="px-12rem w-[1fr] h-[100vh]  flex justify-center flex-col items-center bg-[Black] gap-6">
                   <div className="text-white text-6xl md:text-8xl text-center text-bold">Welcome to <span className="text-[#888]">Note-</span><span className="text-[#4f92ff]">Vault</span></div>
-                  <Link to="/admin/dashboard" className="items-center justify-end ">
                   <Button className="bg-[#003cff] px-4 py-3 rounded-lg text-lg hover:bg-[#0000ff] hover:transition-all text-white">Get started</Button>
-            </Link>
                 </div>
+            </Link>
             }
           />
 
