@@ -39,7 +39,7 @@ const App = () => {
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route
-            path="/"
+            path="/admin"
             element={
               <Link to="/admin/dashboard" className="items-center justify-end ">
               {/* <button>Visit Dashboard</button> */}
