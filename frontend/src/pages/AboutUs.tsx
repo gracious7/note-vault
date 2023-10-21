@@ -71,7 +71,7 @@ const AboutUS = () => {
               who are stressed about exam preparations.
             </p>
             <p className="mb-4 text-gray-600">
-              <a className="text-blue-600 hover:underline" href="/admin/contactus">
+              <a className="text-blue-600 hover:underline" href="/contactus">
                 Contact us
               </a>{" "}
               at the provided email address if you encounter any glitches or

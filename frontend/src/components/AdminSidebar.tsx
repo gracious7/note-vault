@@ -80,31 +80,31 @@ const DivOne = ({ location }: { location: Location }) => (
     <h5 className="font-bold text-xl">Dashboard</h5>
     <ul>
       <Li
-        url="/admin/dashboard"
+        url="/dashboard"
         text="Home"
         Icon={RiDashboardFill}
         location={location}
       />
           <Li
-            url="/admin/newcontribution"
+            url="/newcontribution"
             text="Contribute"
             Icon={RiShoppingBag3Fill}
             location={location}
           />
         <Li
-          url="/admin/top-contributer"
+          url="/top-contributer"
           text="Top Contributers"
           Icon={IoIosPeople}
           location={location}
         />
       <Li
-        url="/admin/aboutus"
+        url="/aboutus"
         text="About us"
         Icon={RiShoppingBag3Fill}
         location={location}
       />
       <Li
-        url="/admin/contactus"
+        url="/contactus"
         text="Contact Us"
         Icon={AiFillFileText}
         location={location}
@@ -120,14 +120,14 @@ const DivThree = ({ location }: { location: Location }) => (
     <h5>Apps</h5>
     <ul>
       <Li
-        url="/admin/app/stopwatch"
+        url="/app/stopwatch"
         text="Stopwatch"
         Icon={FaStopwatch}
         location={location}
       />
 
       <Li
-        url="/admin/app/toss"
+        url="/app/toss"
         text="Study Music"
         Icon={FaGamepad}
         location={location}
@@ -142,14 +142,14 @@ const DivFour = ({ location }: { location: Location }) => (
     <ul>
     {login == false ?
       <Li
-    url="/admin/dashboard"
+    url="/dashboard"
     text="Logout"
     Icon={RiLogoutCircleLine}
     location={location}
   />
   :
     <Li 
-        url="/admin/login"
+        url="/login"
         text="Login"
         Icon={RiLoginCircleLine}
         location={location}

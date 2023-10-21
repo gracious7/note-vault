@@ -39,9 +39,9 @@ const App = () => {
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route
-            path="/admin"
+            path="/"
             element={
-              <Link to="/admin/dashboard" className="items-center justify-end ">
+              <Link to="/dashboard" className="items-center justify-end ">
               {/* <button>Visit Dashboard</button> */}
                 <div className="px-12rem w-[1fr] h-[100vh]  flex justify-center flex-col items-center bg-[Black] gap-6">
                   <div className="text-white text-6xl md:text-8xl text-center text-bold">Welcome to <span className="text-[#888]">Note-</span><span className="text-[#4f92ff]">Vault</span></div>
@@ -51,38 +51,38 @@ const App = () => {
             }
           />
 
-          <Route path="/admin/dashboard" element={<Dashboard />} />
-          <Route path="/admin/product" element={<Products />} />
-          <Route path="/admin/top-contributer" element={<TopContributer />} />
-          <Route path="/admin/transaction" element={<Transaction />} />
-          <Route path="/admin/subjects" element={<Subjects />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/product" element={<Products />} />
+          <Route path="/top-contributer" element={<TopContributer />} />
+          <Route path="/transaction" element={<Transaction />} />
+          <Route path="/subjects" element={<Subjects />} />
 
           {/* Charts */}
 
-          <Route path="/admin/chart/bar" element={<BarCharts />} />
-          <Route path="/admin/chart/pie" element={<PieCharts />} />
-          <Route path="/admin/chart/line" element={<LineCharts />} />
+          <Route path="/chart/bar" element={<BarCharts />} />
+          <Route path="/chart/pie" element={<PieCharts />} />
+          <Route path="/chart/line" element={<LineCharts />} />
 
           {/* Apps */}
 
-          <Route path="/admin/app/stopwatch" element={<Stopwatch />} />
-          <Route path="/admin/app/coupon" element={<Coupon />} />
-          <Route path="/admin/app/toss" element={<Toss />} />
+          <Route path="/app/stopwatch" element={<Stopwatch />} />
+          <Route path="/app/coupon" element={<Coupon />} />
+          <Route path="/app/toss" element={<Toss />} />
 
           {/* Management */}
-          <Route path="/admin/product/new" element={<NewProduct />} />
-          <Route path="/admin/product/:id" element={<ProductManagement />} />
+          <Route path="/product/new" element={<NewProduct />} />
+          <Route path="/product/:id" element={<ProductManagement />} />
           <Route
-            path="/admin/transaction/:id"
+            path="/transaction/:id"
             element={<TransactionManagement />}
           />
-          <Route path="/admin/aboutus" element={<AboutUS />} />
-          <Route path="/admin/contactus" element={<ContactUs />} />
-          <Route path="/admin/login" element={<Login />} />
-          <Route path="/admin/newcontribution" element={<NewContribution />} />
-          <Route path="/admin/semester" element={<Semester />} />
-          <Route path="/admin/pdfview" element={<PdfView />} />
-          <Route path="/admin/booksection" element={<BookSection/>} />
+          <Route path="/aboutus" element={<AboutUS />} />
+          <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/newcontribution" element={<NewContribution />} />
+          <Route path="/semester" element={<Semester />} />
+          <Route path="/pdfview" element={<PdfView />} />
+          <Route path="/booksection" element={<BookSection/>} />
           
         </Routes>
       </Suspense>
