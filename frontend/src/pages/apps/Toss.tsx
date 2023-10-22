@@ -6,7 +6,7 @@ import {
   Button,
 } from "@nextui-org/react";
 import {FaPauseCircle, FaPlay,FaSyncAlt } from "react-icons/fa"; // Import icons from react-icons
-import songimg from "../../assets/images/b4.jpeg"
+import songimg from "../../assets/images/m1.png"
 
 const Toss: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
@@ -34,16 +34,12 @@ const Toss: React.FC = () => {
         <section>
           <div className="audio-controls">
             <audio ref={audioRef} src={music} loop={isLooping} />
-            <div className="flex items-center justify-center">
-              <Image
-                src={''} // Replace with the actual image path
-                alt="Song Image"
-                width={100}
-                height={100}
-              />
-            </div>
-            <div className="text-center mt-4">
-              <h2 className="font-bold">Soothing Music</h2> {/* Replace with the actual song name */}
+            <div className="text-center mt-4 flex flex-col items-center"> 
+              <img
+                className="w-[35%] mt-4 rounded-3xl"
+                src={songimg}
+                alt="song"
+               />
             </div>
             <div className="flex items-center justify-center mt-4">
               <Button
