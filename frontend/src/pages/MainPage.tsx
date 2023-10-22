@@ -71,22 +71,54 @@ const MainPage: React.FC = () => {
         </div>
       ) : (
         <div className="flex h-screen">
-          <div className="w-16 bg-blue-600 text-white p-4 space-y-6">
-            <HiMenuAlt4 className="cursor-pointer" />
+          <div className="w-[13rem] overflow-hidden bg-blue-600 text-white p-4 space-y-6 flex flex-col items-start fixed top-0 bottom-0">
+            <div className="flex items-center text-xl cursor-pointer">
+              <HiMenuAlt4 className="cursor-pointer mr-3" />
+              {/* <div className="text-[#cbd5f5] font-bold">Note-</div>
+              <div className="text-[#171731] font-bold">Vault</div> */}
+            </div>
+
             {sidebarOptions.map((option) => (
               <div
-                className={`p-3 rounded-md cursor-pointer ${
-                  option.path === selectedPath ? "bg-gray-500" : ""
-                }`}
+                title={`${option.path.toUpperCase().replace("/", "")}`}
+                className={`w-[120%]  p-3 rounded-md cursor-pointer ${`${
+                  option.path === selectedPath
+                    ? "bg-white text-[#4a4949] rounded-l-full "
+                    : ""
+                } md:text-md lg:text-lg`}
+                lg:text-lg
+                md:text-base`}
                 onClick={() => handleSidebarClick(option.path)}
               >
-                {option.icon}
+                {" "}
+                <div className="flex gap-2 items-center font-medium">
+                  <div>{option.icon}</div>
+                  <div>
+                    {option.path === "/dashboard" ? (
+                      <>Dashboard</>
+                    ) : option.path === "/topContributer" ? (
+                      <>Top Contributer</>
+                    ) : option.path === "/stopwatch" ? (
+                      <>Stopwatch</>
+                    ) : option.path === "/aboutUs" ? (
+                      <>About Us</>
+                    ) : option.path === "/contactUs" ? (
+                      <>Contact Us</>
+                    ) : option.path === "/login" ? (
+                      <>Login</>
+                    ) : option.path === "/toss" ? (
+                      <>Music</>
+                    ) : (
+                      <></>
+                    )}
+                  </div>
+                </div>
               </div>
             ))}
           </div>
 
           {/* Content Area */}
-          <div className="flex-grow p-4 bg-gray-100">
+          <div className="flex-grow p-4 bg-gray-100 ml-[13rem]">
             {getComponent(selectedPath)}
           </div>
         </div>
