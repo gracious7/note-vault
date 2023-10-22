@@ -58,7 +58,7 @@ const MainPage: React.FC = () => {
       {welcome ? (
         <div className="px-12rem w-[1fr] h-[100vh]  flex justify-center flex-col items-center bg-[Black] gap-6">
           <div className="text-white text-6xl md:text-8xl text-center text-bold">
-            Welcome to
+            Welcome to{' '}
             <span className="text-[#888]">Note-</span>
             <span className="text-[#4f92ff]">Vault</span>
           </div>
@@ -71,16 +71,17 @@ const MainPage: React.FC = () => {
         </div>
       ) : (
         <div className="flex h-screen">
-          <div className="w-16 bg-blue-600 text-white p-4 space-y-6">
+          <div className="w-[20%] bg-blue-600 text-white p-4 space-y-6 ">
             <HiMenuAlt4 className="cursor-pointer" />
             {sidebarOptions.map((option) => (
               <div
-                className={`p-3 rounded-md cursor-pointer ${
+               title={`${option.path.toUpperCase().replace("/", "")}`}
+                className={`p-3 rounded-md cursor-pointer  ${
                   option.path === selectedPath ? "bg-gray-500" : ""
                 }`}
                 onClick={() => handleSidebarClick(option.path)}
               >
-                {option.icon}
+                {option.icon}{ option.path.toUpperCase().replace("/", "")}
               </div>
             ))}
           </div>

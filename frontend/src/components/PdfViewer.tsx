@@ -4,6 +4,7 @@ interface PdfViewerProps {
   pdfUrl: string;
 }
 
+
 const PdfViewer: React.FC<PdfViewerProps> = ({ pdfUrl }) => {
   // Convert the provided URL to the embedded URL format
   const embedUrl = pdfUrl;
@@ -17,7 +18,6 @@ const PdfViewer: React.FC<PdfViewerProps> = ({ pdfUrl }) => {
                      <iframe
                         src={embedUrl}
                         className="w-[850px] h-[500px]"
-                        frameBorder="0"
                         title="PDF Viewer"
                      ></iframe>
                   </div>

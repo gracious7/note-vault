@@ -9,7 +9,7 @@ const Sidebar = lazy(() => import("./pages/Sidebar"));
 
 const TopContributer = lazy(() => import("./pages/TopContributer"));
 
-const Subjects = lazy(() => import("./components/Subjects"));
+
 
 const Stopwatch = lazy(() => import("./pages/apps/Stopwatch"));
 
@@ -20,7 +20,8 @@ const Login = lazy(()=>import("./pages/Login"))
 const NewContribution = lazy(()=> import("./pages/NewContribution"))
 const Semester = lazy(()=> import("./components/Semester"))
 const PdfView  = lazy(()=>import("./components/View"))
-const BookSection = lazy(()=>import("./pages/BookSection"))
+const PdfPreview  = lazy(()=>import("./components/PdfViewer"))
+
 
 const App = () => {
   return (
@@ -44,7 +45,7 @@ const App = () => {
 
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/topcontributer" element={<TopContributer />} />
-          <Route path="/subjects" element={<Subjects />} />
+
 
 
           {/* Apps */}
@@ -60,8 +61,9 @@ const App = () => {
           <Route path="/newcontribution" element={<NewContribution />} />
           <Route path="/semester" element={<Semester branch="ECE"/>} />
           <Route path="/pdfview" element={<PdfView />} />
-          <Route path="/booksection" element={<BookSection/>} />
+
           <Route path="/sidebar" element={<Sidebar/>} />
+          <Route path="/pdfsee" element={<PdfPreview pdfUrl="https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview"/>} />
 
         </Routes>
       </Suspense>

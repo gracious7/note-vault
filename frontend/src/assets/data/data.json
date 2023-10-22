@@ -1,0 +1,402 @@
+{
+   "branches": [
+     {
+       "branchName": "Branch 1",
+       "semesters": [
+         {
+           "semesterNumber": 1,
+           "subjects": [
+             {
+               "subjectName": "Subject 1",
+               "books": ["Book 1.1", "Book 1.2"],
+               "topperNotes": ["Notes 1.1", "Notes 1.2"],
+               "videos": ["Video 1.1", "Video 1.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             
+           ]
+         },
+         {
+           "semesterNumber": 2,
+           "subjects": [
+             {
+               "subjectName": "Subject 1",
+               "books": ["Book 1.1", "Book 1.2"],
+               "topperNotes": ["Notes 1.1", "Notes 1.2"],
+               "videos": ["Video 1.1", "Video 1.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             
+           ]
+         },
+         {
+           "semesterNumber": 3,
+           "subjects": [
+             {
+               "subjectName": "Subject 1",
+               "books": ["Book 1.1", "Book 1.2"],
+               "topperNotes": ["Notes 1.1", "Notes 1.2"],
+               "videos": ["Video 1.1", "Video 1.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             
+           ]
+         },
+         {
+           "semesterNumber": 4,
+           "subjects": [
+             {
+               "subjectName": "Subject 1",
+               "books": ["Book 1.1", "Book 1.2"],
+               "topperNotes": ["Notes 1.1", "Notes 1.2"],
+               "videos": ["Video 1.1", "Video 1.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             
+           ]
+         },
+         {
+           "semesterNumber": 5,
+           "subjects": [
+             {
+               "subjectName": "Subject 1",
+               "books": ["Book 1.1", "Book 1.2"],
+               "topperNotes": ["Notes 1.1", "Notes 1.2"],
+               "videos": ["Video 1.1", "Video 1.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             
+           ]
+         },
+         {
+           "semesterNumber": 6,
+           "subjects": [
+             {
+               "subjectName": "Subject 1",
+               "books": ["Book 1.1", "Book 1.2"],
+               "topperNotes": ["Notes 1.1", "Notes 1.2"],
+               "videos": ["Video 1.1", "Video 1.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             
+           ]
+         },
+         {
+           "semesterNumber": 7,
+           "subjects": [
+             {
+               "subjectName": "Subject 1",
+               "books": ["Book 1.1", "Book 1.2"],
+               "topperNotes": ["Notes 1.1", "Notes 1.2"],
+               "videos": ["Video 1.1", "Video 1.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             
+           ]
+         },
+         {
+           "semesterNumber": 8,
+           "subjects": [
+             {
+               "subjectName": "Subject 1",
+               "books": ["Book 1.1", "Book 1.2"],
+               "topperNotes": ["Notes 1.1", "Notes 1.2"],
+               "videos": ["Video 1.1", "Video 1.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             {
+               "subjectName": "Subject 2",
+               "books": ["Book 2.1", "Book 2.2"],
+               "topperNotes": ["Notes 2.1", "Notes 2.2"],
+               "videos": ["Video 2.1", "Video 2.2"]
+             },
+             
+           ]
+         },
+
+       ]
+     },
+     {
+       "branchName": "Branch 2",
+       "semesters": [
+         // Define semesters and subjects for Branch 2
+       ]
+     },
+     // Add more branches here
+   ]
+ }
+ 

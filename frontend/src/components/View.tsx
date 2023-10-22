@@ -1,4 +1,5 @@
-import PdfViewer from './PdfPreview';
+import PdfViewer from './PdfViewer';
+
 
 function View() {
   // Provide a default value (empty string) if selectedPdfUrl is null
