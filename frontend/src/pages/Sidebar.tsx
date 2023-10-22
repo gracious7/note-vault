@@ -6,21 +6,31 @@ import {
   FaStopwatch,
 } from "react-icons/fa";
 import { HiMenuAlt4 } from "react-icons/hi";
-import { IoIosPeople } from "react-icons/io";
+
 import {
   RiDashboardFill,
   RiShoppingBag3Fill,
   RiLoginCircleLine,
   RiLogoutCircleLine,
 } from "react-icons/ri";
+
+import { IoIosPeople } from "react-icons/io";
+
+
+// Define your sidebar options and their respective components
+
 import { Link, Location, useLocation } from "react-router-dom";
 
-import Stopwatch from "../pages/apps/Stopwatch";
-import Toss from "../pages/apps/Toss";
 const login:Boolean = true;
 
-const AdminSidebar = () => {
+
+
+
+
+const Sidebar = () => {
+
   const location = useLocation();
+
 
   const [showModal, setShowModal] = useState<boolean>(false);
   const [phoneActive, setPhoneActive] = useState<boolean>(
@@ -41,6 +51,8 @@ const AdminSidebar = () => {
 
   return (
     <>
+    <div className="admin-container">
+    
       {phoneActive && (
         <button id="hamburger" onClick={() => setShowModal(true)}>
           <HiMenuAlt4 />
@@ -73,6 +85,8 @@ const AdminSidebar = () => {
           </button>
         )}
       </aside>
+      
+      </div>
     </>
   );
 };
@@ -86,7 +100,6 @@ const DivOne = ({ location }: { location: Location }) => (
         text="Home"
         Icon={RiDashboardFill}
         location={location}
-      
       />
           <Li
             url="/newcontribution"
@@ -114,34 +127,32 @@ const DivOne = ({ location }: { location: Location }) => (
       />
     </ul>
   </div>
+ 
 );
 
 
 
-const DivThree = ({ }: { location: Location }) => {
-  const [showStopwatch, setShowStopwatch] = useState(false);
-  const [showToss, setShowToss] = useState(false);
+const DivThree = ({ location }: { location: Location }) => (
+  <div>
+    <h5>Apps</h5>
+    <ul>
+      <Li
+        url="/app/stopwatch"
+        text="Stopwatch"
+        Icon={FaStopwatch}
+        location={location}
+      />
 
-  return (
-    <div>
-      <h5>Apps</h5>
-      <ul>
-        <li>
-          <button onClick={() => setShowStopwatch(true)}>
-            <FaStopwatch /> Stopwatch
-          </button>
-          {showStopwatch && <Stopwatch />}
-        </li>
-        <li>
-          <button onClick={() => setShowToss(true)}>
-            <FaGamepad /> Toss
-          </button>
-          {showToss && <Toss />}
-        </li>
-      </ul>
-    </div>
-  );
-};
+      <Li
+        url="/app/toss"
+        text="Study Music"
+        Icon={FaGamepad}
+        location={location}
+      />
+    </ul>
+  </div>
+  
+);
 
 
 const DivFour = ({ location }: { location: Location }) => (
@@ -193,6 +204,7 @@ const Li = ({ url, text, location, Icon }: LiProps) => (
       {text}
     </Link>
   </li>
+  
 );
 
-export default AdminSidebar;
+export default Sidebar;

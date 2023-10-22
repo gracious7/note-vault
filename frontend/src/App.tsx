@@ -4,6 +4,8 @@ import Loader from "./components/Loader";
 import {Button} from "@nextui-org/react";
 
 const Dashboard = lazy(() => import("./pages/Dashboard"));
+const MainPage = lazy(() => import("./pages/MainPage"));
+const Sidebar = lazy(() => import("./pages/Sidebar"));
 
 const TopContributer = lazy(() => import("./pages/TopContributer"));
 
@@ -26,8 +28,9 @@ const App = () => {
       <Router>
       <Suspense fallback={<Loader />}>
         <Routes>
+          <Route path="/" element={<MainPage/>}/>
           <Route
-            path="/"
+            path="/admin"
             element={
               <Link to="/dashboard" className="items-center justify-end ">
               {/* <button>Visit Dashboard</button> */}
@@ -40,14 +43,14 @@ const App = () => {
           />
 
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/top-contributer" element={<TopContributer />} />
+          <Route path="/topcontributer" element={<TopContributer />} />
           <Route path="/subjects" element={<Subjects />} />
 
 
           {/* Apps */}
 
-          <Route path="/app/stopwatch" element={<Stopwatch />} />
-          <Route path="/app/toss" element={<Toss />} />
+          <Route path="stopwatch" element={<Stopwatch />} />
+          <Route path="toss" element={<Toss />} />
 
 
 
@@ -55,9 +58,10 @@ const App = () => {
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/login" element={<Login />} />
           <Route path="/newcontribution" element={<NewContribution />} />
-          <Route path="/semester" element={<Semester />} />
+          <Route path="/semester" element={<Semester branch="ECE"/>} />
           <Route path="/pdfview" element={<PdfView />} />
           <Route path="/booksection" element={<BookSection/>} />
+          <Route path="/sidebar" element={<Sidebar/>} />
 
         </Routes>
       </Suspense>
