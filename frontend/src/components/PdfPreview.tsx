@@ -1,5 +1,4 @@
 import React from 'react';
-import AdminSidebar from './AdminSidebar';
 
 interface PdfViewerProps {
   pdfUrl: string;
@@ -10,8 +9,6 @@ const PdfViewer: React.FC<PdfViewerProps> = ({ pdfUrl }) => {
   const embedUrl = pdfUrl;
 
   return (
-  <div className="admin-container">
-   <AdminSidebar />
       <main className="dashboard">
          <div className="flex items-center justify-center h-screen">
             <div className="bg-white rounded-lg shadow-lg p-4 w-full mr-4"> 
@@ -27,7 +24,6 @@ const PdfViewer: React.FC<PdfViewerProps> = ({ pdfUrl }) => {
             </div>
          </div>
       </main>
-    </div>
   );
 };
 

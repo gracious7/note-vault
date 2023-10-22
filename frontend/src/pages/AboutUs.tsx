@@ -7,18 +7,15 @@ import gi3 from '../assets/images/gi3.png';
 import gi4 from '../assets/images/gi4.png';
 import gi5 from '../assets/images/gi5.png';
 import gi6 from '../assets/images/gi6.png';
-import AdminSidebar from "../components/AdminSidebar";
 
 const AboutUS = () => {
   return (
-    <div className="admin-container">
-      <AdminSidebar />
       <main className="dashboard">
         <section className="mx-auto">
           <div className="text-center mb-10">
             <h1 className="text-4xl font-bold pt-4">About Us</h1>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 mb-12 justify-center items-center mx-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 mb-12 justify-center items-center mx-4 lg:mr-1 lg:ml-3">
             <div>
               <img
                 className='w-[98%]' 
@@ -62,7 +59,7 @@ const AboutUS = () => {
               />
             </div>
           </div>
-          <div className="text-lg mb-16 leading-7 mx-6 text-justify">
+          <div className="text-base mb-16 leading-7 mx-6 text-justify">
             <p className="mb-4">
               We are Team Big3, and our aspiration for creating this project
               was to address the unequal distribution of study materials and
@@ -83,7 +80,7 @@ const AboutUS = () => {
             </p>
           </div>
           <div className="mb-10">
-            <h2 className="text-4xl font-bold text-center mb-12 pb-2 border-b-2">OUR TEAM</h2>
+            <h2 className="text-4xl font-bold text-center mb-12 pb-3 border-b-2">OUR TEAM</h2>
             <div className="flex flex-wrap justify-center gap-10">
               <div className="w-[20rem] flex flex-col items-center shadow-lg py-4 rounded-xl">
                 <img className="w-[50%] mb-4 rounded-full hover:scale-110 shadow-xl transition-transform duration-300 ease-in-out" alt="Member1" src={t1} />
@@ -110,7 +107,6 @@ const AboutUS = () => {
           </div>
         </section>
       </main>
-    </div>
   );
 };
 

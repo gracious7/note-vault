@@ -28,9 +28,9 @@ const Semester: React.FC<BranchProps> = ({branch}) => {
   return (
 
       <main className="dashboard mx-4 md:mx-10">
-        <section className="my-8 text-center">
-          <h1 className="text-2xl md:text-3xl font-bold mt-20 md:mt-0">{branch}</h1>
-          <h1 className="text-2xl md:text-3xl font-bold mt-20 md:mt-0">Choose Your Semester</h1>
+        <section className="my-6 text-center">
+          <h1 className="text-2xl md:text-4xl font-bold mt-20 md:mt-0 mb-4">{branch}</h1>
+          <h1 className="text-2xl md:text-2xl font-medium mt-20 md:mt-0">Choose Your Semester</h1>
         </section>
         <section className="grid grid-cols-1 sm:grid-cols-2  gap-4 mb-10 mx-20">
           {[1, 2, 3, 4, 5, 6, 7, 8].map((semester) => (

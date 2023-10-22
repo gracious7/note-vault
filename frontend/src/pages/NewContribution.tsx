@@ -1,6 +1,4 @@
 import { useState, ChangeEvent, FormEvent } from 'react';
-import AdminSidebar from '../components/AdminSidebar';
-
 
 const NewContribution = () => {
   const [file, setFile] = useState<File | null>(null);
@@ -75,8 +73,6 @@ const NewContribution = () => {
   };
 
   return (
-    <div className="admin-container">
-      <AdminSidebar />
       <main className="contribution-management">
         <article>
           <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 lg:mr-9 lg:my-4 mt-14 mx-4" >
@@ -165,7 +161,6 @@ const NewContribution = () => {
           </form>
         </article>
       </main>
-    </div>
   );
 };
 

@@ -33,8 +33,6 @@ const ContactUs: React.FC = () => {
   };
 
   return (
-    <div className="admin-container">
-      <AdminSidebar />
       <main className="dashboard">
         <section>
           <div className="min-h-screen flex items-center justify-center bg-gray-100">
@@ -98,7 +96,6 @@ const ContactUs: React.FC = () => {
           </div>
         </section>
       </main>
-    </div>
   );
 };
 

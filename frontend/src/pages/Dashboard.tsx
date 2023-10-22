@@ -54,75 +54,75 @@ const Dashboard = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 items-center justify-center text-center ">
           
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Bio-Medical")}>
+          onClick={() => openSemester("Bio-Medical Engineering")}>
 
-              <img className="mb-3" alt="brances" src={b2} />
+              <img className="mb-3 cursor-pointer" alt="branches" src={b2} />
               <h2 className="">Bio-Medical</h2>
             </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Bio-Technology")}>
 
-            <img className="mb-3" alt="brances" src={b1} />
+            <img className="mb-3 cursor-pointer" alt="branches" src={b1} />
             <h2 className="">Bio-Technology</h2>
              </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Chemical")}>
+          onClick={() => openSemester("Chemical Engineering")}>
           
-            <img className="mb-3" alt="brances" src={b4} />
+            <img className="mb-3 cursor-pointer" alt="branches" src={b4} />
             <h2 className="">Chemical</h2>
              </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Computer Science")}>
       
-            <img className="mb-3" alt="brances" src={b5} />
+            <img className="mb-3 cursor-pointer" alt="branches" src={b5} />
             <h2 className="">Computer Science</h2>
               </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Electronics & Communication")}>
+          onClick={() => openSemester("Electronics & Communication Engineering")}>
   
-            <img className="mb-3" alt="brances" src={b6} />
+            <img className="mb-3 cursor-pointer" alt="branches" src={b6} />
             <h2 className="">Electronics & Communication</h2>
              </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Electrical")}>
+          onClick={() => openSemester("Electrical Engineering")}>
 
-            <img className="mb-3" alt="brances" src={b7} />
+            <img className="mb-3 cursor-pointer" alt="branches" src={b7} />
             <h2 className="">Electrical</h2>
              </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Information Technology")}>
 
-            <img className="mb-3" alt="brances" src={b8} />
+            <img className="mb-3 cursor-pointer" alt="branches" src={b8} />
             <h2 className="">Information Technology</h2>
   </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Mechanical")}>
+          onClick={() => openSemester("Mechanical Engineering")}>
     
-            <img className="mb-3" alt="brances" src={b9} />
+            <img className="mb-3 cursor-pointer" alt="branches" src={b9} />
             <h2 className="">Mechanical</h2>
              </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Metallurgy & Material")}>
+          onClick={() => openSemester("Metallurgy & Material Engineering")}>
         
-            <img className="mb-3" alt="brances" src={b10} />
+            <img className="mb-3 cursor-pointer" alt="branches" src={b10} />
             <h2 className="">Metallurgy & Material</h2>
              </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Mining")}>
  
-            <img className="mb-3" alt="brances" src={b11} />
+            <img className="mb-3 cursor-pointer" alt="branches" src={b11} />
             <h2 className="">Mining</h2>
              </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Civil")}>
+          onClick={() => openSemester("Civil Engineering")}>
    
-            <img className="mb-3" alt="brances" src={b3} />
+            <img className="mb-3 cursor-pointer" alt="branches" src={b3} />
             <h2 className="">Civil</h2>
              </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("B.Arch")}>
         
-            <img className="mb-3" alt="brances" src={b12} />
+            <img className="mb-3 cursor-pointer" alt="branches" src={b12} />
             <h2 className="">B.Arch</h2>
              </div>
           
