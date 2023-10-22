@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Assuming you're using React Router
+import Subjects from "./Subjects";
 
 
 interface CardProps {
@@ -8,14 +9,18 @@ interface CardProps {
 interface BranchProps {
   branch: string;
 }
+string 
+
+const [subject, setSubject] = useState<string|null>(null);
 
 const MainComponent: React.FC<CardProps> = ({ semester }) => {
   return (
-    <Link to={`/subjects`}>
-      <div className="bg-white shadow-md rounded-lg p-4 transform transition-transform hover:scale-105 hover:shadow-lg text-center">
+
+      <div className="bg-white shadow-md rounded-lg p-4 transform transition-transform hover:scale-105 hover:shadow-lg text-center" 
+      onClick={setSubject("/subjects")}>
         <h2 className="text-lg">Semester {semester}</h2>
       </div>
-    </Link>
+
   );
 };
 
