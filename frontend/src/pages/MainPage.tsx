@@ -58,7 +58,7 @@ const MainPage: React.FC = () => {
       {welcome ? (
         <div className="px-12rem w-[1fr] h-[100vh]  flex justify-center flex-col items-center bg-[Black] gap-6">
           <div className="text-white text-6xl md:text-8xl text-center text-bold">
-            Welcome to
+            Welcome to{' '}
             <span className="text-[#888]">Note-</span>
             <span className="text-[#4f92ff]">Vault</span>
           </div>

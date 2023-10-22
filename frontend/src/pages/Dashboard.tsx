@@ -64,12 +64,14 @@ const Dashboard = () => {
 
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b1} /></div>
             <h2 className="">Bio-Technology</h2>
+            
              </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Chemical Engineering")}>
           
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b4} /></div>
             <h2 className="">Chemical</h2>
+            
              </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Computer Science")}>
@@ -82,19 +84,21 @@ const Dashboard = () => {
   
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b6} /></div>
             <h2 className="">Electronics & Communication</h2>
+            
              </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Electrical Engineering")}>
 
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b7} /></div>
             <h2 className="">Electrical</h2>
+            
              </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Information Technology")}>
 
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b8} /></div>
             <h2 className="">Information Technology</h2>
-  </div>
+          </div>
           <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Mechanical Engineering")}>
     

@@ -8,7 +8,6 @@ const MainPage = lazy(() => import("./pages/MainPage"));
 const Sidebar = lazy(() => import("./pages/Sidebar"));
 
 const TopContributer = lazy(() => import("./pages/TopContributer"));
-
 const Stopwatch = lazy(() => import("./pages/apps/Stopwatch"));
 
 const Toss = lazy(() => import("./pages/apps/Toss"));
@@ -17,7 +16,8 @@ const ContactUs = lazy(() => import("./pages/ContactUs"));
 const Login = lazy(()=>import("./pages/Login"))
 const NewContribution = lazy(()=> import("./pages/NewContribution"))
 const PdfView  = lazy(()=>import("./components/View"))
-const BookSection = lazy(()=>import("./pages/BookSection"))
+const PdfPreview  = lazy(()=>import("./components/PdfViewer"))
+
 
 const App = () => {
   return (
@@ -55,8 +55,9 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/newcontribution" element={<NewContribution />} />
           <Route path="/pdfview" element={<PdfView />} />
-          <Route path="/booksection" element={<BookSection/>} />
+
           <Route path="/sidebar" element={<Sidebar/>} />
+          <Route path="/pdfsee" element={<PdfPreview pdfUrl="https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview"/>} />
 
         </Routes>
       </Suspense>
