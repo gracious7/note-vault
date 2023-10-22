@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import AdminSidebar from "../components/AdminSidebar";
 
 
 
@@ -96,8 +95,6 @@ const Login = () => {
   };
 
   return (
-    <div className="admin-container">
-      <AdminSidebar />
       <main className="dashboard">
         <section className="flex flex-col items-center justify-center min-h-screen ">
           {isLogin ? (
@@ -255,7 +252,6 @@ const Login = () => {
           )}
         </section>
       </main>
-    </div>
   );
 };
 

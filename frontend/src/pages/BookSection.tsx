@@ -13,7 +13,7 @@ const BookSection = () => {
 
   return (
     <div className="w-full">
-      <a href="/admin/subjects">
+      <a href="/subjects">
       <button  className="absolute bottom-4 right-[4%] bg-[#3474ec] hover:bg-[#2559bb] text-white font-bold py-2 px-4 rounded-lg ">Back</button>
       </a>
       <div className="flex justify-center mt-8 mb-4">
@@ -58,7 +58,7 @@ const BookSection = () => {
                 </thead>
                 <tbody>
                   <tr className="text-center">
-                     <a href="/admin/pdfview">
+                     <a href="/pdfview">
                     <td  className="py-2 px-4 text-center">B. P. Lathi, Zhi Ding Modern Digital and Analog Communication System.pdf</td>
                     </a>
                     <td className="py-2 px-4 text-center">Sahyog-The Mentorship Club</td>

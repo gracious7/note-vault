@@ -1,12 +1,10 @@
 import { useState, useRef } from "react";
-import AdminSidebar from "../../components/AdminSidebar";
 import music from "../../assets/music/soothing_music.mp3"; // Replace with the actual path
 import {
-  Image,
   Button,
 } from "@nextui-org/react";
 import {FaPauseCircle, FaPlay,FaSyncAlt } from "react-icons/fa"; // Import icons from react-icons
-import songimg from "../../assets/images/m1.png"
+import songimg from "../../assets/images/m1.png";
 
 const Toss: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
@@ -27,12 +25,10 @@ const Toss: React.FC = () => {
   };
 
   return (
-    <div className="admin-container">
-      <AdminSidebar />
       <main className="dashboard-app-container">
         <h1 className="font-bold text-center text-4xl">Listen to Music</h1>
         <section>
-          <div className="audio-controls">
+          <div className="audio-controls h-[100vh] translate-y-[15%]">
             <audio ref={audioRef} src={music} loop={isLooping} />
             <div className="text-center mt-4 flex flex-col items-center"> 
               <img
@@ -40,6 +36,9 @@ const Toss: React.FC = () => {
                 src={songimg}
                 alt="song"
                />
+            <div className="text-center mt-4">
+          </div>
+              <h2 className="font-bold">Soothing Music</h2> {/* Replace with the actual song name */}
             </div>
             <div className="flex items-center justify-center mt-4">
               <Button
@@ -60,7 +59,6 @@ const Toss: React.FC = () => {
           </div>
         </section>
       </main>
-    </div>
   );
 };
 

@@ -1,4 +1,3 @@
-import AdminSidebar from "../../components/AdminSidebar";
 import { useState, useEffect } from "react";
 
 const formatTime = (timeInSeconds: number) => {
@@ -35,12 +34,10 @@ const Stopwatch = () => {
   }, [isRunning]);
 
   return (
-    <div className="admin-container">
-      <AdminSidebar />
       <main className="dashboard-app-container">
         <h1 className="font-bold text-center text-4xl">Stopwatch</h1>
-        <section>
-          <div className="stopwatch">
+        <section className="translate-y-[25%]">
+          <div className="stopwatch h-[100vh]">
             <h2>{formatTime(time)}</h2>
             <button onClick={() => setIsRunning((prev) => !prev)}>
               {isRunning ? "Stop" : "Start"}
@@ -49,7 +46,6 @@ const Stopwatch = () => {
           </div>
         </section>
       </main>
-    </div>
   );
 };
 

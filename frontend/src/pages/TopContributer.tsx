@@ -1,5 +1,4 @@
 import { ReactElement } from "react";
-import AdminSidebar from "../components/AdminSidebar";
 import { Column } from "react-table";
 import { useState, useCallback } from "react";
 import TableHOC from "../components/TableHOC";
@@ -177,10 +176,7 @@ const TopContributer = () => {
   );
 
   return (
-    <div className="admin-container">
-      <AdminSidebar />
       <main className="dashboard">{Table()}</main>
-    </div>
   );
 };
 
