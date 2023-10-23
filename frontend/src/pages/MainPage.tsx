@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+// import {  useLocation } from "react-router-dom";
 // import { HiMenuAlt4 } from "react-icons/hi";
 import {
   RiDashboardFill,
@@ -18,6 +18,7 @@ import ContactUs from "../pages/ContactUs";
 import Login from "../pages/Login";
 import { Button } from "@nextui-org/react";
 import Logo from "../assets/images/logo.png";
+import NewContribution from "./NewContribution";
 
 // Define your sidebar options and their respective components
 const sidebarOptions = [
@@ -27,6 +28,7 @@ const sidebarOptions = [
     icon: <RiShoppingBag3Fill />,
     path: "/topContributer",
   },
+  { name: "NewContribution", icon: <FaStopwatch />, path: "/newcontribution" },
   { name: "Stopwatch", icon: <FaStopwatch />, path: "/stopwatch" },
   { name: "Toss", icon: <FaGamepad />, path: "/toss" },
   { name: "About Us", icon: <AiFillFileText />, path: "/aboutUs" },
@@ -35,10 +37,11 @@ const sidebarOptions = [
 ];
 
 const MainPage: React.FC = () => {
-  const location = useLocation();
-  const [selectedPath, setSelectedPath] = useState<string>(location.pathname);
+//   const location = useLocation();
+  const [selectedPath, setSelectedPath] = useState<string>("/dashboard");
   const firstVisit: string | null = localStorage.getItem("firstVisitor");
   const [welcome, setWelcome] = useState<string | null>(null);
++
 
   useEffect(() => {
     if (!firstVisit) {
@@ -57,7 +60,7 @@ const MainPage: React.FC = () => {
   return (
     <>
       {welcome ? (
-        <div className="px-12rem w-[1fr] h-[100vh]  flex justify-center flex-col items-center bg-[Black] gap-6">
+        <div className="px-12rem w-[1fr] flex justify-center flex-col items-center bg-[Black] gap-6">
           <div className="text-white text-6xl md:text-8xl text-center text-bold">
             Welcome to <span className="text-[#888]">Note-</span>
             <span className="text-[#4f92ff]">Vault</span>
@@ -70,7 +73,7 @@ const MainPage: React.FC = () => {
           </Button>
         </div>
       ) : (
-        <div className="flex h-screen">
+        <div className="flex h-screen ">
           <div className="w-[16rem] overflow-hidden bg-[white] text-[#4a4949] py-4 pl-4 pr-0 space-y-6 flex flex-col items-start fixed top-0 bottom-0">
             <div className="flex items-center text-xl cursor-pointer">
               <div>
@@ -87,7 +90,9 @@ const MainPage: React.FC = () => {
             {sidebarOptions.map((option) => (
               <div
                 title={`${option.path.toUpperCase().replace("/", "")}`}
-                className={`p-3 rounded-md cursor-pointer ${`${
+                className={`p-3 rounded-md cursor-pointer 
+                
+                ${`${
                   option.path === selectedPath
                     ? "bg-[#4f92ff] text-[#ffffff] rounded-l-full w-full"
                     : ""
@@ -96,13 +101,15 @@ const MainPage: React.FC = () => {
                 onClick={() => handleSidebarClick(option.path)}
               >
                 {" "}
-                <div className="flex ml-6 gap-[1rem] items-center">
+                <div className="flex ml-6 gap-[1rem] items-center h-fit">
                   <div>{option.icon}</div>
                   <div>
                     {option.path === "/dashboard" ? (
-                      <>Dashboard</>
+                      <><div className={``} onClick={() => window.location.reload()}>Dashboard</div></>
                     ) : option.path === "/topContributer" ? (
                       <>Top Contributer</>
+                    ) : option.path === "/newcontribution" ? (
+                      <>Contrubute</>
                     ) : option.path === "/stopwatch" ? (
                       <>Stopwatch</>
                     ) : option.path === "/aboutUs" ? (
@@ -123,7 +130,7 @@ const MainPage: React.FC = () => {
           </div>
 
           {/* Content Area */}
-          <div className="flex-grow p-4 bg-gray-100 lg:ml-[16rem]">
+          <div className="flex-grow bg-gray-100 lg:ml-[16rem] ">
             {getComponent(selectedPath)}
           </div>
         </div>
@@ -138,6 +145,8 @@ function getComponent(path: string) {
       return <Dashboard />;
     case "/topContributer":
       return <TopContributer />;
+    case "/newcontribution":
+      return <NewContribution />;
     case "/stopwatch":
       return <Stopwatch />;
     case "/toss":
