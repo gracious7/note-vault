@@ -30,7 +30,7 @@ const Dashboard = () => {
   return (
     
     
-    <main className="dashboard">
+    <main className="dashboard bg-gray-100">
       {
         selectedBranch ? (
           <div className="flex flex-col m-6">
