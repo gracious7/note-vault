@@ -47,84 +47,84 @@ const Dashboard = () => {
             <>
              <div className="bar">
           <BsSearch />
-          <input type="text" placeholder="Search for data, users, docs" />
+          <input type="text" placeholder="Search for books" />
           
         </div>
         <h1 className="text-center font-bold text-3xl mt-8" >Select your Branch</h1><br/>
 
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 items-center justify-center text-center ">
           
-          <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
+          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Bio-Medical Engineering")}>
 
               <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b2} /></div>
               <h2 className="">Bio-Medical</h2>
             </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
+          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Bio-Technology")}>
 
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b1} /></div>
             <h2 className="">Bio-Technology</h2>
             
              </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
+          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Chemical Engineering")}>
           
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b4} /></div>
             <h2 className="">Chemical</h2>
             
              </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
+          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Computer Science")}>
       
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b5} /></div>
             <h2 className="">Computer Science</h2>
               </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
+          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Electronics & Communication Engineering")}>
   
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b6} /></div>
             <h2 className="">Electronics & Communication</h2>
             
              </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
+          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Electrical Engineering")}>
 
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b7} /></div>
             <h2 className="">Electrical</h2>
             
              </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
+          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Information Technology")}>
 
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b8} /></div>
             <h2 className="">Information Technology</h2>
           </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
+          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Mechanical Engineering")}>
     
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b9} /></div>
             <h2 className="">Mechanical</h2>
              </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
+          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Metallurgy & Material Engineering")}>
         
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b10} /></div>
             <h2 className="">Metallurgy & Material</h2>
              </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
+          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Mining")}>
  
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b11} /></div>
             <h2 className="">Mining</h2>
              </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
+          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("Civil Engineering")}>
    
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b3} /></div>
             <h2 className="">Civil</h2>
              </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-5 m-4 bg-white rounded-lg shadow-lg"
+          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
           onClick={() => openSemester("B.Arch")}>
         
             <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b12} /></div>
