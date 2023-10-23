@@ -71,7 +71,7 @@ const MainPage: React.FC = () => {
         </div>
       ) : (
         <div className="flex h-screen">
-          <div className="w-[13rem] overflow-hidden bg-blue-600 text-white p-4 space-y-6 flex flex-col items-start fixed top-0 bottom-0">
+          <div className="w-[14rem] overflow-hidden bg-[white] text-[#4a4949] p-4 space-y-6 flex flex-col items-start fixed top-0 bottom-0">
             <div className="flex items-center text-xl cursor-pointer">
               <HiMenuAlt4 className="cursor-pointer mr-3" />
               {/* <div className="text-[#cbd5f5] font-bold">Note-</div>
@@ -81,7 +81,7 @@ const MainPage: React.FC = () => {
             {sidebarOptions.map((option) => (
               <div
                 title={`${option.path.toUpperCase().replace("/", "")}`}
-                className={`w-[120%]  p-3 rounded-md cursor-pointer ${`${
+                className={`  p-3 rounded-md cursor-pointer ${`${
                   option.path === selectedPath
                     ? "bg-white text-[#4a4949] rounded-l-full w-[120%]"
                     : ""

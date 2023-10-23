@@ -34,10 +34,10 @@ const Stopwatch = () => {
   }, [isRunning]);
 
   return (
-      <main className="dashboard-app-container">
+      <main className="dashboard-app-container bg-gray-100 flex flex-col justify-center align-center h-[100%]">
         <h1 className="font-bold text-center text-4xl">Stopwatch</h1>
-        <section className="translate-y-[25%]">
-          <div className="stopwatch h-[100vh]">
+        <section className="">
+          <div className="stopwatch ">
             <h2>{formatTime(time)}</h2>
             <button onClick={() => setIsRunning((prev) => !prev)}>
               {isRunning ? "Stop" : "Start"}

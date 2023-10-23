@@ -25,14 +25,14 @@ const Toss: React.FC = () => {
   };
 
   return (
-      <main className="dashboard-app-container">
-        <h1 className="font-bold text-center text-4xl">Listen to Music</h1>
-        <section>
-          <div className="audio-controls h-[100vh] translate-y-[15%]">
+      <main className="bg-gray-100 flex flex-col justify-center align-center h-[100%]">
+        <h1 className="font-bold text-center text-4xl bg-gray-100">Listen to Music</h1>
+        <section >
+          <div className="audio-controls translate-y-[15%]">
             <audio ref={audioRef} src={music} loop={isLooping} />
             <div className="text-center mt-4 flex flex-col items-center"> 
               <img
-                className="w-[35%] mt-4 rounded-3xl"
+                className="w-[20%] mt-4 rounded-3xl"
                 src={songimg}
                 alt="song"
                />

@@ -27,7 +27,7 @@ const Semester: React.FC<BranchProps> = ({ branch }) => {
           <section className="sm:text-sm grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10 mx-20">
             {[1, 2, 3, 4, 5, 6, 7, 8].map((semester) => (
               <div
-                className="bg-white shadow-md rounded-lg p-4 transform transition-transform hover:scale-105 hover:shadow-lg text-center"
+                className="bg-white shadow-md rounded-lg p-4 transform transition-transform hover:scale-105 hover:shadow-lg text-center cursor-pointer"
                 onClick={() => handleBranchAndSem(semester)} // Use an arrow function here
               >
                 <h2 className="text-lg">Semester {semester}</h2>
