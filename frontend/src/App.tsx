@@ -18,6 +18,9 @@ const NewContribution = lazy(()=> import("./pages/NewContribution"))
 const PdfView  = lazy(()=>import("./components/View"))
 const PdfPreview  = lazy(()=>import("./components/PdfViewer"))
 
+{/* test */}
+const ProfileCard = lazy(()=> import('./ProfileCard'))
+
 
 const App = () => {
   return (
@@ -58,6 +61,10 @@ const App = () => {
 
           <Route path="/sidebar" element={<Sidebar/>} />
           <Route path="/pdfsee" element={<PdfPreview pdfUrl="https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview"/>} />
+
+          {/* test */}
+          <Route path="/profilecards" element={<ProfileCard />} />
+
 
         </Routes>
       </Suspense>

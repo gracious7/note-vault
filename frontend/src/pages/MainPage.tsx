@@ -9,6 +9,8 @@ import {
 import { FaGamepad, FaStopwatch } from "react-icons/fa";
 import { IoIosPeople } from "react-icons/io";
 import { AiFillFileText } from "react-icons/ai";
+import { ImUpload2 } from "react-icons/im";
+import { BsPeopleFill } from "react-icons/bs";
 import Dashboard from "../pages/Dashboard";
 import TopContributer from "../pages/TopContributer";
 import Stopwatch from "../pages/apps/Stopwatch";
@@ -18,15 +20,17 @@ import ContactUs from "../pages/ContactUs";
 import Login from "../pages/Login";
 import { Button } from "@nextui-org/react";
 import Logo from "../assets/images/logo.png";
+import NewContribution from "./NewContribution";
 
 // Define your sidebar options and their respective components
 const sidebarOptions = [
   { name: "Dashboard", icon: <RiDashboardFill />, path: "/dashboard" },
   {
     name: "Top Contributor",
-    icon: <RiShoppingBag3Fill />,
+    icon: <BsPeopleFill/>,
     path: "/topContributer",
   },
+  { name: "NewContribution", icon: <ImUpload2 />, path: "/newcontribution" },
   { name: "Stopwatch", icon: <FaStopwatch />, path: "/stopwatch" },
   { name: "Toss", icon: <FaGamepad />, path: "/toss" },
   { name: "About Us", icon: <AiFillFileText />, path: "/aboutUs" },
@@ -57,7 +61,7 @@ const MainPage: React.FC = () => {
   return (
     <>
       {welcome ? (
-        <div className="px-12rem w-[1fr] h-[100vh]  flex justify-center flex-col items-center bg-[Black] gap-6">
+        <div className="px-12rem h-[100vh] w-[1fr] flex justify-center flex-col items-center bg-[Black] gap-6">
           <div className="text-white text-6xl md:text-8xl text-center text-bold">
             Welcome to <span className="text-[#888]">Note-</span>
             <span className="text-[#4f92ff]">Vault</span>
@@ -103,6 +107,8 @@ const MainPage: React.FC = () => {
                       <>Dashboard</>
                     ) : option.path === "/topContributer" ? (
                       <>Top Contributer</>
+                    ) : option.path === "/newcontribution" ? (
+                      <>Contribute</>
                     ) : option.path === "/stopwatch" ? (
                       <>Stopwatch</>
                     ) : option.path === "/aboutUs" ? (
@@ -111,8 +117,8 @@ const MainPage: React.FC = () => {
                       <>Contact Us</>
                     ) : option.path === "/login" ? (
                       <>Login</>
-                    ) : option.path === "/toss" ? (
-                      <>Music</>
+                      ) : option.path === "/toss" ? (
+                        <>Music</>
                     ) : (
                       <></>
                     )}
@@ -123,7 +129,7 @@ const MainPage: React.FC = () => {
           </div>
 
           {/* Content Area */}
-          <div className="flex-grow p-4 bg-gray-100 lg:ml-[16rem]">
+          <div className="flex-grow bg-gray-100 lg:ml-[16rem]">
             {getComponent(selectedPath)}
           </div>
         </div>
@@ -138,6 +144,8 @@ function getComponent(path: string) {
       return <Dashboard />;
     case "/topContributer":
       return <TopContributer />;
+    case "/newcontribution":
+      return <NewContribution/>
     case "/stopwatch":
       return <Stopwatch />;
     case "/toss":

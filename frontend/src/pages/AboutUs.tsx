@@ -11,7 +11,7 @@ import gi6 from '../assets/images/gi6.png';
 const AboutUS = () => {
   return (
       <main className="dashboard">
-        <section className="mx-auto">
+        <section className="mx-auto h-fit bg-gray-100">
           <div className="text-center mb-10">
             <h1 className="text-4xl font-bold pt-4">About Us</h1>
           </div>
@@ -79,7 +79,7 @@ const AboutUS = () => {
               improved functionality, and greater utility.
             </p>
           </div>
-          <div className="mb-10">
+          <div className="mb-10 bg-[white]">
             <h2 className="text-4xl font-bold text-center mb-12 pb-3 border-b-2">OUR TEAM</h2>
             <div className="flex flex-wrap justify-center gap-10">
               <div className="w-[20rem] flex flex-col items-center shadow-lg py-4 rounded-xl">

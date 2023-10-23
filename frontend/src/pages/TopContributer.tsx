@@ -57,42 +57,20 @@ const arr: DataType[] = [
       </button>
     ),
   },
-
   {
     avatar: (
       <img
         style={{
           borderRadius: "50%",
         }}
-        src={mg2}
+        src={mg1}
         alt="Shoes"
       />
     ),
     name: "May Scoot",
     email: "aunt.may@example.com",
     gender: "female",
-    count: "5",
-    action: (
-      <button>
-        <FaTrash />
-      </button>
-    ),
-  },
-
-  {
-    avatar: (
-      <img
-        style={{
-          borderRadius: "50%",
-        }}
-        src={mg2}
-        alt="Shoes"
-      />
-    ),
-    name: "May Scoot",
-    email: "aunt.may@example.com",
-    gender: "female",
-    count: "3",
+    count: "6",
     action: (
       <button>
         <FaTrash />
@@ -105,14 +83,14 @@ const arr: DataType[] = [
         style={{
           borderRadius: "50%",
         }}
-        src={mg2}
+        src={mg1}
         alt="Shoes"
       />
     ),
     name: "May Scoot",
     email: "aunt.may@example.com",
     gender: "female",
-    count: "2",
+    count: "6",
     action: (
       <button>
         <FaTrash />
@@ -125,14 +103,14 @@ const arr: DataType[] = [
         style={{
           borderRadius: "50%",
         }}
-        src={mg2}
+        src={mg1}
         alt="Shoes"
       />
     ),
     name: "May Scoot",
     email: "aunt.may@example.com",
     gender: "female",
-    count: "1",
+    count: "6",
     action: (
       <button>
         <FaTrash />
@@ -145,14 +123,14 @@ const arr: DataType[] = [
         style={{
           borderRadius: "50%",
         }}
-        src={mg2}
+        src={mg1}
         alt="Shoes"
       />
     ),
     name: "May Scoot",
     email: "aunt.may@example.com",
     gender: "female",
-    count: "1",
+    count: "6",
     action: (
       <button>
         <FaTrash />
@@ -176,7 +154,11 @@ const TopContributer = () => {
   );
 
   return (
-      <main className="dashboard">{Table()}</main>
+    <main className="h-fit my-4 bg-gray-100">
+      <div className="container mx-auto px-4">
+        <div className="overflow-x-auto">{Table()}</div>
+      </div>
+    </main>
   );
 };
 
