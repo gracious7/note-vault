@@ -95,8 +95,8 @@ const Login = () => {
   };
 
   return (
-      <main className="dashboard">
-        <section className="flex flex-col items-center justify-center min-h-screen ">
+      <main className="bg-grey-100 h-[100%] flex justify-center">
+        <section className="flex flex-col items-center justify-center ">
           {isLogin ? (
             <div className="w-96 bg-white p-6 rounded-lg shadow-lg  transition-transform">
               <h1 className="text-3xl font-semibold mb-4 transition-transform">Login</h1>
@@ -144,8 +144,8 @@ const Login = () => {
               </div>
             </div>
           ) : (
-            <div className="w-96 bg-white p-6 rounded-lg shadow-lg">
-              <h1 className="text-3xl font-semibold mb-4">Signup</h1>
+            <div className="w-96 bg-white p-6 rounded-lg shadow-lg ">
+              <h1 className="text-3xl font-semibold mb-2">Signup</h1>
               <form onSubmit={handleSignupSubmit}>
               <div className="mb-4">
                 <label htmlFor="signupFullName" className="block text-sm font-medium">
@@ -240,10 +240,10 @@ const Login = () => {
                   </button>
                 </div>
               </form>
-              <div className="mb-4">
+              <div className="mb-2">
                 <button
                   onClick={toggleForm}
-                  className="w-full bg-gray-300 text-gray-700 py-2 px-4 rounded-md hover:bg-gray-400"
+                  className="w-full bg-gray-300 text-gray-700 pt-2 px-4 rounded-md hover:bg-gray-400"
                 >
                   Switch to Login
                 </button>

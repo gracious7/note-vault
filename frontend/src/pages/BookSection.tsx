@@ -11,11 +11,15 @@ interface ContentItem {
   name: string;
   contributor: string;
   uploadDate: string;
+  link:string;
 }
 
 interface VideoItem {
   name: string;
-  link: string;
+  contributor: string;
+  uploadDate: string;
+  link:string;
+ 
 }
 
 const BookSection: React.FC<BookProps> = ({ subject, semester, branch }) => {
@@ -53,6 +57,7 @@ const BookSection: React.FC<BookProps> = ({ subject, semester, branch }) => {
         name: "Mathematics",
         contributor: "Contributor 1",
         uploadDate: "2023-10-16",
+        link: "www.googl.com",
       },
       // Add more note items here
     ],
@@ -60,26 +65,38 @@ const BookSection: React.FC<BookProps> = ({ subject, semester, branch }) => {
       {
         name: "CodeHelp by babbar",
         link: "https://www.youtube.com/watch?v=_TpOHMCODXo&list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG",
+        contributor: "Contributor 1",
+        uploadDate: "2023-10-16",
       },
       {
         name: "Gate Smasher",
         link: "https://www.youtube.com/watch?v=bkSWJJZNgf8&list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p",
+        contributor: "Contributor 1",
+        uploadDate: "2023-10-16",
       },
       {
         name: "Knowledge Gate",
         link: "https://www.youtube.com/watch?v=xw_OuOhjauw&list=PLmXKhU9FNesSFvj6gASuWmQd23Ul5omtD",
+        contributor: "Contributor 1",
+        uploadDate: "2023-10-16",
       },
       {
         name: "Nesso Academy",
         link: "https://www.youtube.com/watch?v=vBURTt97EkA&list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O",
+        contributor: "Contributor 1",
+        uploadDate: "2023-10-16",
       },
       {
         name: "Gate Wallah",
         link: "https://www.youtube.com/watch?v=a3YDvmKbGrA&list=PL3eEXnCBViH-SiXK96TZd-7k3Qvk5g1YH",
+        contributor: "Contributor 1",
+        uploadDate: "2023-10-16",
       },
       {
         name: "Easy Engineering",
         link: "https://www.youtube.com/watch?v=QhRPNO2f0g0&list=PLV8vIYTIdSnZ67NQObdXE0gFjrzPrNKHp",
+        contributor: "Contributor 1",
+        uploadDate: "2023-10-16",
       },
       // Add more video items here
     ],

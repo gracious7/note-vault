@@ -6,9 +6,9 @@ interface SubAndBranch{
   branch: string;
 }
 
-interface Book{
-  book:string;
-}
+// interface Book{
+//   book:string;
+// }
 
 
 const Subjects: React.FC<SubAndBranch> = ({ semester, branch }) => {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
-import { HiMenuAlt4 } from "react-icons/hi";
+import { useLocation } from "react-router-dom";
+// import { HiMenuAlt4 } from "react-icons/hi";
 import {
   RiDashboardFill,
   RiShoppingBag3Fill,
@@ -82,8 +82,6 @@ const MainPage: React.FC = () => {
                 />
               </div>
               {/* <HiMenuAlt4 className="cursor-pointer mr-3" /> */}
-              {/* <div className="text-[#cbd5f5] font-bold">Note-</div>
-              <div className="text-[#171731] font-bold">Vault</div> */}
             </div>
 
             {sidebarOptions.map((option) => (
