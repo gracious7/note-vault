@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import AdminSidebar from '../components/AdminSidebar';
 
 const ContactUs: React.FC = () => {
   const [name, setName] = useState('');

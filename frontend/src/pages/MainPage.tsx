@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
-import { HiMenuAlt4 } from "react-icons/hi";
+import { useLocation } from "react-router-dom";
+// import { HiMenuAlt4 } from "react-icons/hi";
 import {
   RiDashboardFill,
   RiShoppingBag3Fill,
