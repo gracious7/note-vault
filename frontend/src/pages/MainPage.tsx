@@ -71,14 +71,14 @@ const MainPage: React.FC = () => {
         </div>
       ) : (
         <div className="flex h-screen">
-          <div className="hidden lg:block lg:max-w-screen-md w-[13rem] overflow-hidden bg-blue-600 text-white p-4 space-y-6 flex flex-col items-start fixed top-0 bottom-0">
+          <div className="w-[16rem] overflow-hidden bg-[white] text-[#4a4949] py-4 pl-4 pr-0 space-y-6 flex flex-col items-start fixed top-0 bottom-0">
             <div className="flex items-center text-xl cursor-pointer">
               <div>
                 <img
                   src={Logo}
                   alt="logo"
-                  className="rounded-lg shadow-xl cursor-pointer"
-                  width="90%"
+                  className="rounded-lg cursor-pointer"
+                  width="100%"
                 />
               </div>
               {/* <HiMenuAlt4 className="cursor-pointer mr-3" /> */}
@@ -89,17 +89,16 @@ const MainPage: React.FC = () => {
             {sidebarOptions.map((option) => (
               <div
                 title={`${option.path.toUpperCase().replace("/", "")}`}
-                className={`w-[120%]  p-3 rounded-md cursor-pointer ${`${
+                className={`p-3 rounded-md cursor-pointer ${`${
                   option.path === selectedPath
-                    ? "bg-white text-[#4a4949] rounded-l-full "
+                    ? "bg-[#4f92ff] text-[#ffffff] rounded-l-full w-full"
                     : ""
-                } md:text-md lg:text-lg`}
-                lg:text-lg
+                } md:text-base lg:text-md`}
                 md:text-base`}
                 onClick={() => handleSidebarClick(option.path)}
               >
                 {" "}
-                <div className="flex gap-2 items-center font-medium">
+                <div className="flex ml-6 gap-[1rem] items-center">
                   <div>{option.icon}</div>
                   <div>
                     {option.path === "/dashboard" ? (
@@ -126,7 +125,7 @@ const MainPage: React.FC = () => {
           </div>
 
           {/* Content Area */}
-          <div className="flex-grow p-4 bg-gray-100 lg:ml-[13rem]">
+          <div className="flex-grow p-4 bg-gray-100 lg:ml-[16rem]">
             {getComponent(selectedPath)}
           </div>
         </div>
