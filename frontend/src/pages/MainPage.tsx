@@ -91,7 +91,7 @@ const MainPage: React.FC = () => {
                 title={`${option.path.toUpperCase().replace("/", "")}`}
                 className={`w-[120%]  p-3 rounded-md cursor-pointer ${`${
                   option.path === selectedPath
-                    ? "bg-white text-[#4a4949] rounded-l-full w-[120%]"
+                    ? "bg-white text-[#4a4949] rounded-l-full "
                     : ""
                 } md:text-md lg:text-lg`}
                 lg:text-lg
