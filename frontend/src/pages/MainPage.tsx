@@ -17,6 +17,7 @@ import AboutUS from "../pages/AboutUs";
 import ContactUs from "../pages/ContactUs";
 import Login from "../pages/Login";
 import { Button } from "@nextui-org/react";
+import Logo from "../assets/images/logo.png";
 
 // Define your sidebar options and their respective components
 const sidebarOptions = [
@@ -44,7 +45,7 @@ const MainPage: React.FC = () => {
       setWelcome("welcome");
     }
   }, []);
-  const handlewelcome = () => {  
+  const handlewelcome = () => {
     setWelcome(null);
     localStorage.setItem("firstVisitor", "1");
   };
@@ -58,8 +59,7 @@ const MainPage: React.FC = () => {
       {welcome ? (
         <div className="px-12rem w-[1fr] h-[100vh]  flex justify-center flex-col items-center bg-[Black] gap-6">
           <div className="text-white text-6xl md:text-8xl text-center text-bold">
-            Welcome to{' '}
-            <span className="text-[#888]">Note-</span>
+            Welcome to <span className="text-[#888]">Note-</span>
             <span className="text-[#4f92ff]">Vault</span>
           </div>
           <Button
@@ -71,9 +71,17 @@ const MainPage: React.FC = () => {
         </div>
       ) : (
         <div className="flex h-screen">
-          <div className="w-[13rem] overflow-hidden bg-blue-600 text-white p-4 space-y-6 flex flex-col items-start fixed top-0 bottom-0">
+          <div className="hidden lg:block lg:max-w-screen-md w-[13rem] overflow-hidden bg-blue-600 text-white p-4 space-y-6 flex flex-col items-start fixed top-0 bottom-0">
             <div className="flex items-center text-xl cursor-pointer">
-              <HiMenuAlt4 className="cursor-pointer mr-3" />
+              <div>
+                <img
+                  src={Logo}
+                  alt="logo"
+                  className="rounded-lg shadow-xl cursor-pointer"
+                  width="90%"
+                />
+              </div>
+              {/* <HiMenuAlt4 className="cursor-pointer mr-3" /> */}
               {/* <div className="text-[#cbd5f5] font-bold">Note-</div>
               <div className="text-[#171731] font-bold">Vault</div> */}
             </div>
@@ -118,7 +126,7 @@ const MainPage: React.FC = () => {
           </div>
 
           {/* Content Area */}
-          <div className="flex-grow p-4 bg-gray-100 ml-[13rem]">
+          <div className="flex-grow p-4 bg-gray-100 lg:ml-[13rem]">
             {getComponent(selectedPath)}
           </div>
         </div>
