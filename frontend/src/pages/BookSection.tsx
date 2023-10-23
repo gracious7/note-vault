@@ -140,7 +140,7 @@ const BookSection: React.FC<BookProps> = ({ subject, semester, branch }) => {
                 <tbody>
                   {contentData.books.map((item, index) => (
                     <tr key={index} className="text-center">
-                      <td className="py-2 px-4 text-center">
+                      <td className="py-2 px-4 text-center cursor-pointer">
                         <div onClick={()=>(handleUrl(item.link))}>{item.name}</div>
                       </td>
                       <td className="py-2 px-4 text-center">{item.contributor}</td>
@@ -167,7 +167,7 @@ const BookSection: React.FC<BookProps> = ({ subject, semester, branch }) => {
                 <tbody>
                   {contentData.notes.map((item, index) => (
                     <tr key={index} className="text-center">
-                      <td className="py-2 px-4 text-center">{item.name}</td>
+                      <td className="py-2 px-4 text-center cursor-pointer">{item.name}</td>
                       <td className="py-2 px-4 text-center">{item.contributor}</td>
                       <td className="py-2 px-4 text-center">{item.uploadDate}</td>
                     </tr>

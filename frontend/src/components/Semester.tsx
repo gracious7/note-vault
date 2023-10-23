@@ -16,6 +16,8 @@ const Semester: React.FC<BranchProps> = ({ branch }) => {
     <>
       {branchAndSem ? (
         <Subjects branch={branch} semester={branchAndSem} />
+        
+        
       ) : (
         <main className="dashboard mx-4 md:mx-10">
           <section className="my-8 text-center">
@@ -34,6 +36,7 @@ const Semester: React.FC<BranchProps> = ({ branch }) => {
           </section>
         </main>
       )}
+      
     </>
   );
 };

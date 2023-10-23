@@ -40,7 +40,8 @@ const Dashboard = () => {
             onClick={closeSemester}
             >
               Back to Home
-            </Button>
+        </Button>
+            
           </div>
           ) : (
             <>
