@@ -12,6 +12,7 @@ const Semester: React.FC<BranchProps> = ({ branch }) => {
 
   const handleBranchAndSem = (semester: number) => {
     setBranchAndSem(semester);
+
   };
 
   const gotosem= () => {

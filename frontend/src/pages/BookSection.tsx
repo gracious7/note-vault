@@ -2,26 +2,18 @@ import React, { useState } from "react";
 import PdfViewer from "../components/PdfViewer";
 import { Button } from "@nextui-org/react";
 
+import data from "../assets/data/Data";
+
+
+
 interface BookProps {
   subject: string;
   semester: number;
   branch: string;
 }
 
-interface ContentItem {
-  name: string;
-  contributor: string;
-  uploadDate: string;
-  link:string;
-}
 
-interface VideoItem {
-  name: string;
-  contributor: string;
-  uploadDate: string;
-  link:string;
- 
-}
+
 
 const BookSection: React.FC<BookProps> = ({ subject, semester, branch }) => {
   const [activeTab, setActiveTab] = useState("books");
@@ -30,78 +22,25 @@ const BookSection: React.FC<BookProps> = ({ subject, semester, branch }) => {
     setActiveTab(tabName);
   };
 
-  // Define an array of JSON data for books, notes, and videos
-  const contentData: Record<string, (ContentItem | VideoItem)[]> = {
-    books: [
-      {
-        name: "B. P. Lathi, Zhi Ding Modern Digital and Analog Communication System.pdf",
-        link: "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-        contributor: "Sahyog-The Mentorship Club",
-        uploadDate: "2023-10-15",
-      },
-      {
-        name: "EE320A-Principles-Of-Communication-CommunicationSystems.pdf",
-        contributor: "Sahyog-The Mentorship Club",
-        link: "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-        uploadDate: "2023-10-15",
-      },
-      {
-        name: "Ctheory_and_design_of_digital_communication_systems.pdf",
-        contributor: "Sahyog-The Mentorship Club",
-        link: "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-        uploadDate: "2023-10-15",
-      },
-      // Add more book items here
-    ],
-    notes: [
-      {
-        name: "Mathematics",
-        contributor: "Contributor 1",
-        uploadDate: "2023-10-16",
-        link: "www.googl.com",
-      },
-      // Add more note items here
-    ],
-    videos: [
-      {
-        name: "CodeHelp by babbar",
-        link: "https://www.youtube.com/watch?v=_TpOHMCODXo&list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG",
-        contributor: "Contributor 1",
-        uploadDate: "2023-10-16",
-      },
-      {
-        name: "Gate Smasher",
-        link: "https://www.youtube.com/watch?v=bkSWJJZNgf8&list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p",
-        contributor: "Contributor 1",
-        uploadDate: "2023-10-16",
-      },
-      {
-        name: "Knowledge Gate",
-        link: "https://www.youtube.com/watch?v=xw_OuOhjauw&list=PLmXKhU9FNesSFvj6gASuWmQd23Ul5omtD",
-        contributor: "Contributor 1",
-        uploadDate: "2023-10-16",
-      },
-      {
-        name: "Nesso Academy",
-        link: "https://www.youtube.com/watch?v=vBURTt97EkA&list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O",
-        contributor: "Contributor 1",
-        uploadDate: "2023-10-16",
-      },
-      {
-        name: "Gate Wallah",
-        link: "https://www.youtube.com/watch?v=a3YDvmKbGrA&list=PL3eEXnCBViH-SiXK96TZd-7k3Qvk5g1YH",
-        contributor: "Contributor 1",
-        uploadDate: "2023-10-16",
-      },
-      {
-        name: "Easy Engineering",
-        link: "https://www.youtube.com/watch?v=QhRPNO2f0g0&list=PLV8vIYTIdSnZ67NQObdXE0gFjrzPrNKHp",
-        contributor: "Contributor 1",
-        uploadDate: "2023-10-16",
-      },
-      // Add more video items here
-    ],
-  };
+
+
+
+
+  const branchx = "Bio-Medical";
+  const semesterx = `Semester ${semester}`;
+  const subjectx = "Digital Communication";
+
+  const books = data[branchx][semesterx][subjectx].books;
+  const videos = data[branchx][semesterx][subjectx].videos;
+  const topperNotes = data[branchx][semesterx][subjectx].topper_notes;
+
+  console.log(books);
+  console.log(videos);
+  console.log(topperNotes);
+  
+
+
+
 
   const [pdfurl, setPdfurl] = useState<string|null>(null);
   
@@ -160,13 +99,13 @@ const BookSection: React.FC<BookProps> = ({ subject, semester, branch }) => {
                   </tr>
                 </thead>
                 <tbody>
-                  {contentData.books.map((item, index) => (
+                  {books.map((item, index) => (
                     <tr key={index} className="text-center">
                       <td className="py-2 px-4 text-center cursor-pointer">
                         <div onClick={()=>(handleUrl(item.link))}>{item.name}</div>
                       </td>
                       <td className="py-2 px-4 text-center">{item.contributor}</td>
-                      <td className="py-2 px-4 text-center">{item.uploadDate}</td>
+                      <td className="py-2 px-4 text-center">{item.uploadedDate}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -187,11 +126,11 @@ const BookSection: React.FC<BookProps> = ({ subject, semester, branch }) => {
                   </tr>
                 </thead>
                 <tbody>
-                  {contentData.notes.map((item, index) => (
+                  {topperNotes.map((item, index) => (
                     <tr key={index} className="text-center">
                       <td className="py-2 px-4 text-center cursor-pointer">{item.name}</td>
                       <td className="py-2 px-4 text-center">{item.contributor}</td>
-                      <td className="py-2 px-4 text-center">{item.uploadDate}</td>
+                      <td className="py-2 px-4 text-center">{item.uploadedDate}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -206,7 +145,7 @@ const BookSection: React.FC<BookProps> = ({ subject, semester, branch }) => {
               <div className="mb-4 w-[50%]">
                 <h3 className="text-2xl font-semibold text-center mb-3 p-4 border-b-2">Channel name</h3>
                 <div>
-                  {contentData.videos.map((item, index) => (
+                  {videos.map((item, index) => (
                     <div key={index} className="mb-2 p-4 border-b-2 flex justify-between ">
                       <div>{item.name} </div>
                       <a href={item.link}><div className="ml-20  hover:border-y-2 shadow-orange-500 duration-75 translate-x-full">Link</div></a>
