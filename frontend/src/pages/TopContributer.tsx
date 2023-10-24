@@ -3,8 +3,8 @@ import { Column } from "react-table";
 import { useState, useCallback } from "react";
 import TableHOC from "../components/TableHOC";
 import { FaTrash } from "react-icons/fa";
-import mg1 from "../assets/images/user.png"
-import mg2 from "../assets/images/user.png"
+import mg1 from "../assets/images/user.png";
+import mg2 from "../assets/images/user.png";
 
 interface DataType {
   avatar: ReactElement;
@@ -31,10 +31,15 @@ const columns: Column<DataType>[] = [
   {
     Header: "Number of Contributions",
     accessor: "count",
-    Cell: ({ value }) => <div className="text-center mr-[160px]">{value}</div>,
+    Cell: ({ value }) => (
+      <div className="text-center">{value}</div>
+    ),
   },
-  
 ];
+
+
+
+
 
 const arr: DataType[] = [
   {
@@ -110,7 +115,7 @@ const arr: DataType[] = [
     name: "May Scoot",
     email: "aunt.may@example.com",
     gender: "female",
-    count: "6",
+    count: "2",
     action: (
       <button>
         <FaTrash />
@@ -130,14 +135,59 @@ const arr: DataType[] = [
     name: "May Scoot",
     email: "aunt.may@example.com",
     gender: "female",
-    count: "6",
+    count: "2",
     action: (
       <button>
         <FaTrash />
       </button>
     ),
   },
+  {
+    avatar: (
+      <img
+        style={{
+          borderRadius: "50%",
+        }}
+        src={mg2}
+        alt="Shoes"
+      />
+    ),
+    name: "May Scoot",
+    email: "aunt.may@example.com",
+    gender: "female",
+    count: "2",
+    action: (
+      <button>
+        <FaTrash />
+      </button>
+    ),
+  },
+  {
+    avatar: (
+      <img
+        style={{
+          borderRadius: "50%",
+        }}
+        src={mg2}
+        alt="Shoes"
+      />
+    ),
+    name: "May Scoot",
+    email: "aunt.may@example.com",
+    gender: "female",
+    count: "2",
+    action: (
+      <button>
+        <FaTrash />
+      </button>
+    ),
+  },
+
+
 ];
+
+const itemsPerPage = 5;
+
 
 const TopContributer = () => {
   const [data] = useState<DataType[]>(arr);
@@ -146,9 +196,9 @@ const TopContributer = () => {
     TableHOC<DataType>(
       columns,
       data,
-      "dashboard-product-box",
-      "",
-      true
+      "dashboard-product-box bg-white shadow-lg",
+      true,
+      itemsPerPage // Corrected argument order
     ),
     []
   );
