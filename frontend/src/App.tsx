@@ -17,7 +17,7 @@ const Login = lazy(()=>import("./pages/Login"))
 const NewContribution = lazy(()=> import("./pages/NewContribution"))
 const PdfView  = lazy(()=>import("./components/View"))
 const PdfPreview  = lazy(()=>import("./components/PdfViewer"))
-const Data = lazy(()=>import('./components/Datas'))
+
 
 
 
@@ -61,7 +61,6 @@ const App = () => {
 
           <Route path="/sidebar" element={<Sidebar/>} />
           <Route path="/pdfsee" element={<PdfPreview pdfUrl="https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview"/>} />
-          <Route path="/data" element={<Data/>}/>
           
 
         </Routes>
