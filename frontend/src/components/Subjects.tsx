@@ -1,5 +1,6 @@
 import { useState } from "react";
 import BookSection from "../pages/BookSection";
+import { Button } from "@nextui-org/react";
 
 interface SubAndBranch{
   semester: number;
@@ -25,6 +26,10 @@ const Subjects: React.FC<SubAndBranch> = ({ semester, branch }) => {
   
   const handleBook =(newSub: string)=>{
     setSubject(newSub)
+  }
+
+  const gotoSub = ()=>{
+    setSubject(null);
   }
 
   return (
@@ -56,6 +61,16 @@ const Subjects: React.FC<SubAndBranch> = ({ semester, branch }) => {
           </main>
         )
       }
+      {subject && (
+        <div className="base-button btn2">
+          <Button
+            className="bg-blue-600 w-auto self-center rounded-md p-3 text-white font-bold outline-none active:translate-y-1 active:shadow-lg transition-all"
+            onClick={gotoSub}
+          >
+             Back to Subject
+          </Button>
+        </div>
+      )}
     </>
   );
 };

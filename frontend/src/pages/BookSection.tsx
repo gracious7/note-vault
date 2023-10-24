@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PdfViewer from "../components/PdfViewer";
+import { Button } from "@nextui-org/react";
 
 interface BookProps {
   subject: string;
@@ -106,6 +107,10 @@ const BookSection: React.FC<BookProps> = ({ subject, semester, branch }) => {
   
   const handleUrl = (newUrl:string)=>{
     setPdfurl(newUrl);
+  }
+
+  const gotoBook =()=>{
+    setPdfurl(null);
   }
 
   return (
@@ -221,6 +226,16 @@ const BookSection: React.FC<BookProps> = ({ subject, semester, branch }) => {
     </div>
       )
     }
+    {pdfurl && (
+        <div className="base-button btn2">
+          <Button
+            className="bg-blue-600 w-auto self-center rounded-md p-3 text-white font-bold outline-none active:translate-y-1 active:shadow-lg transition-all"
+            onClick={gotoBook}
+          >
+             Back to Books
+          </Button>
+        </div>
+      )}
     </>
   );
 };

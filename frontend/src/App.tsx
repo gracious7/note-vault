@@ -19,6 +19,7 @@ const PdfView  = lazy(()=>import("./components/View"))
 const PdfPreview  = lazy(()=>import("./components/PdfViewer"))
 
 
+
 const App = () => {
   return (
     <div className="h-screen">
@@ -58,6 +59,7 @@ const App = () => {
 
           <Route path="/sidebar" element={<Sidebar/>} />
           <Route path="/pdfsee" element={<PdfPreview pdfUrl="https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview"/>} />
+          
 
         </Routes>
       </Suspense>

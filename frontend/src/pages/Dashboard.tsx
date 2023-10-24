@@ -29,20 +29,26 @@ const Dashboard = () => {
 
   return (
     
-    
+    <>
     <main className="dashboard bg-[#f5f5f5]">
       {
         selectedBranch ? (
-          <div className="flex flex-col m-6">
+            <>
             <Semester branch={selectedBranch} />
-            <Button 
-            className="bg-blue-600 w-auto self-center rounded-md p-3 text-white font-bold outline-none active:translate-y-1 active:shadow-lg transition-all"
-            onClick={closeSemester}
-            >
-              Back to Home
-        </Button>
-            
-          </div>
+            {
+              selectedBranch && 
+              <div className="base-button btn1">
+                <Button 
+                className="bg-blue-600  w-auto  rounded-md p-3 text-white font-bold outline-none active:translate-y-1 active:shadow-lg transition-all"
+                onClick={closeSemester}
+                >
+                  Back to Home 
+                </Button>
+
+              </div>
+
+            }
+            </>
           ) : (
             <>
              <div className="bar">
@@ -136,11 +142,13 @@ const Dashboard = () => {
 
             </>
 
-            )
-      }
+)
+
+          }
+          
       </main>
 
-
+      </>
   );
 };
 
