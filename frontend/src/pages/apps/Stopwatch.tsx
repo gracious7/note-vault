@@ -36,7 +36,7 @@ const Stopwatch = () => {
   return (
       <main className="dashboard-app-container bg-gray-100 flex flex-col justify-center align-center h-[100%]">
         <h1 className="font-bold text-center text-4xl">Stopwatch</h1>
-        <section className="">
+        <section className="h-fit">
           <div className="stopwatch ">
             <h2>{formatTime(time)}</h2>
             <button onClick={() => setIsRunning((prev) => !prev)}>

@@ -36,7 +36,7 @@ const Subjects: React.FC<SubAndBranch> = ({ semester, branch }) => {
     <>
       {
         subject?(<BookSection subject={subject} semester={semester} branch={branch}/>):(
-          <main className="dashboard mx-4 md:mx-10">
+          <main className="dashboard full-screen m-12">
             <a href="/semester">
               <button className="absolute bottom-4 right-[4%] bg-[#3474ec] hover:bg-[#2559bb] text-white font-bold py-2 px-4 rounded-lg ">
                 Back
@@ -47,14 +47,14 @@ const Subjects: React.FC<SubAndBranch> = ({ semester, branch }) => {
             <h2 className="text-md md:text-xl font-medium text-center mb-4">
               Choose your Subject
             </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-12 mb-6 mt-6">
+              <div className="sm:text-sm grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10 mx-10">
                 {subjects.map((subject, index) => (
                   <div
                     key={index}
-                    className="bg-white text-center border rounded-lg p-4 shadow-md hover:shadow-lg cursor-pointer transition duration-300"
+                    className="bg-white shadow-md rounded-lg py-4 transform transition-transform hover:scale-[102%] hover:shadow-lg text-center"
                     onClick={()=>(handleBook(subject))}
                   >
-                    {subject}
+                    <h2 className="text-lg">{subject}</h2>
                   </div>
                 ))}
               </div>
