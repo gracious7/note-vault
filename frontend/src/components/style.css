@@ -46,7 +46,7 @@ h1 {
 
 body {
   margin: 0;
-  height: 100vh;
+  /* height: 100vh; */
   display: grid;
   background-color: #444757;
 }

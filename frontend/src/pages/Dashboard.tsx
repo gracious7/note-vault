@@ -16,7 +16,8 @@ import b12 from "../assets/images/b12.jpg";
 import Semester from "../components/Semester";
 import { Button } from "@nextui-org/react";
 
-const Dashboard = () => {
+const 
+Dashboard = () => {
   const [selectedBranch, setSelectedBranch] = useState<string | null>(null);
 
   const openSemester = (branch: string) => {

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 // import { HiMenuAlt4 } from "react-icons/hi";
 import {
   RiDashboardFill,
-  RiShoppingBag3Fill,
+  // RiShoppingBag3Fill,
   RiLoginCircleLine,
 } from "react-icons/ri";
 import { FaGamepad, FaStopwatch } from "react-icons/fa";
@@ -76,8 +76,8 @@ const MainPage: React.FC = () => {
           </Button>
         </div>
       ) : (
-        <div className="flex h-fit ">
-          <div className="w-[16rem] overflow-hidden bg-[white] text-[#4a4949] py-4 pl-4 pr-0 space-y-6 flex flex-col items-start fixed top-0 bottom-0">
+        <div className="flex h-screen ">
+          <div className="w-[20rem] overflow-hidden bg-[white] text-[#4a4949] py-4 pl-8 pr-0 space-y-6 flex flex-col items-start fixed top-0 bottom-0">
             <div className="flex items-center text-xl cursor-pointer">
               <div>
                 <img
@@ -93,14 +93,14 @@ const MainPage: React.FC = () => {
             {sidebarOptions.map((option) => (
               <div
                 title={`${option.path.toUpperCase().replace("/", "")}`}
-                className={`p-3 rounded-md cursor-pointer 
+                className={`p-3 rounded-md cursor-pointer
                 
                 ${`${
                   option.path === selectedPath
                     ? "bg-[#4f92ff] text-[#ffffff] rounded-l-full w-full"
                     : ""
                 } md:text-base lg:text-md`}
-                md:text-base`}
+                md:text-base`} style={{marginTop:10, }}
                 onClick={() => handleSidebarClick(option.path)}
               >
                 {" "}
@@ -142,7 +142,7 @@ const MainPage: React.FC = () => {
           </div>
 
           {/* Content Area */}
-          <div className="flex-grow bg-gray-100 lg:ml-[16rem]">
+          <div className="flex-grow bg-gray-100 lg:ml-[20rem]">
             {getComponent(selectedPath)}
           </div>
         </div>
