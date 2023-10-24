@@ -26,9 +26,9 @@ const BookSection: React.FC<BookProps> = ({ subject, semester, branch }) => {
 
 
 
-  const branchx = "Bio-Medical";
+  const branchx = branch;
   const semesterx = `Semester ${semester}`;
-  const subjectx = "Digital Communication";
+  const subjectx = subject;
 
   const books = data[branchx][semesterx][subjectx].books;
   const videos = data[branchx][semesterx][subjectx].videos;
