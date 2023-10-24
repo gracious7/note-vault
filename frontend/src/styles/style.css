@@ -1,0 +1,92 @@
+/* LESS Variables */
+/* -------------- */
+/* General */
+/* Button Bar */
+/* Button */
+/* Elements */
+/* -------- */
+
+/* Layout */
+/* ------ */
+h1.welcome,
+.button-bar {
+  margin: 20px auto;
+}
+.button-bar {
+  background: #ededed;
+  padding: 16px 24px;
+}
+/* General Button */
+/* -------------- */
+.button {
+  /* position: relative; */
+  /* margin: 0; */
+  /* padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 2.8px;
+  padding-bottom: 2.8px; */
+  background: #0d5287;
+  /* color: white; */
+  /* font-size: 14px; */
+}
+/* .button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+} */
+.button:hover {
+  background: #0585e8;
+}
+/* Arrow Buttons */
+/* ------------- */
+.next::after,
+.prev::after {
+  border-style: solid;
+}
+/* Next Button */
+/* ----------- */
+.next::after {
+  right: -22px;
+  border-width: 30px;
+  border-color: transparent transparent transparent #0d5287;
+}
+.next:hover::after {
+  border-left-color: #0585e8;
+}
+/* Prev Button */
+/* ----------- */
+.prev::after {
+  left: -22px;
+  border-color: transparent #0d5287 transparent transparent;
+  border-width: 11px;
+}
+.prev:hover::after {
+  border-right-color: #0585e8;
+}
+
+
+/* .ripple{ */
+    /* position: relative; */
+    /* overflow: hidden;  */
+  /* } */
+  
+  .ripple:before {
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.6);
+    content:'';
+    position: absolute;
+    top: 50%; left: 50%;
+    width:0; height:0;
+  }
+  
+  .ripple:hover:before {
+    transition: all 0.5s ease-out;
+    opacity:0;
+    width:160px;
+    height:160px;
+    margin-top:-80px;
+    margin-left:-80px;
+  }
+  
