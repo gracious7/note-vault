@@ -8,6 +8,12 @@
                         "link": "Link 1",
                         "contributor": "Contributor 1",
                         "uploadedDate": "2023-10-23"
+                    },
+                    {
+                        "name": "Book 2",
+                        "link": "Link 2",
+                        "contributor": "Contributor 1",
+                        "uploadedDate": "2023-10-23"
                     }
                 ],
                 "topper_notes": [
@@ -20,7 +26,11 @@
                 ],
                 "videos": [
                     {
-                        "name": "Video 1",
+                        "name": "PW",
+                        "link": "Link 1"
+                    },
+                    {
+                        "name": "Gate Smasher",
                         "link": "Link 1"
                     }
                 ]
