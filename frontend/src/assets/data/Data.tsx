@@ -37,514 +37,514 @@ interface Video {
    "Bio-Medical": {
        "Semester 1": {
            "Digital Communication": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
+               "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Operating System": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Microprocessor & Microcontroller": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Digital Image Processing": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Pattern recognition": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Control System Engineering": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Data Science": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            }
         },
-        "Operating System": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
+        "Semester 2": {
+            "Digital Communication": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Operating System": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Microprocessor & Microcontroller": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Digital Image Processing": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Pattern recognition": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Control System Engineering": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Data Science": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            }
         },
-        "Microprocessor & Microcontroller": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
+        "Semester 3": {
+            "Digital Communication": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Operating System": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Microprocessor & Microcontroller": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Digital Image Processing": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Pattern recognition": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Control System Engineering": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            },
+            "Data Science": {
+                "books": [
+                    {
+                        "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Sahyog-The Mentorship Club",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "topper_notes": [
+                    {
+                        "name": "Digital Communication same as book",
+                        "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
+                        "contributor": "Big3",
+                        "uploadedDate": "25-10-2023"
+                    }
+                ],
+                "videos": [
+                    {
+                        "name": "Gate Smasher",
+                        "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
+                    }
+                ]
+            }
         },
-        "Digital Image Processing": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        },
-        "Pattern recognition": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        },
-        "Control System Engineering": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        },
-        "Data Science": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        }
-    },
-    "Semester 2": {
-        "Digital Communication": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        },
-        "Operating System": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        },
-        "Microprocessor & Microcontroller": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        },
-        "Digital Image Processing": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        },
-        "Pattern recognition": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        },
-        "Control System Engineering": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        },
-        "Data Science": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        }
-    },
-    "Semester 3": {
-        "Digital Communication": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        },
-        "Operating System": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        },
-        "Microprocessor & Microcontroller": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        },
-        "Digital Image Processing": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        },
-        "Pattern recognition": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        },
-        "Control System Engineering": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        },
-        "Data Science": {
-            "books": [
-                {
-                    "name": "B.P. Lathi, Zhi Ding Modern Digital and Analog Communication",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Sahyog-The Mentorship Club",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "topper_notes": [
-                {
-                    "name": "Digital Communication same as book",
-                    "link": "https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview",
-                    "contributor": "Big3",
-                    "uploadedDate": "25-10-2023"
-                }
-            ],
-            "videos": [
-                {
-                    "name": "Gate Smasher",
-                    "link": "https://www.youtube.com/watch?v=O0gtKDu_cJc&list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&index=1"
-                }
-            ]
-        }
-    },
        "Semester 4": {
            "Digital Communication": {
                "books": [

@@ -29,127 +29,200 @@ Dashboard = () => {
   };
 
   return (
-    
     <>
-    <main className="dashboard bg-[#f5f5f5]">
-      {
-        selectedBranch ? (
-            <>
+      <main className="dashboard bg-[#f5f5f5] mb-20">
+        {selectedBranch ? (
+          <>
             <Semester branch={selectedBranch} />
-            {
-              selectedBranch && 
-              <div className="base-button btn1">
-                <Button 
-                className="bg-blue-600  w-auto  rounded-md p-3 text-white font-bold outline-none active:translate-y-1 active:shadow-lg transition-all"
-                onClick={closeSemester}
-                >
-                  Back to Home 
-                </Button>
-
-              </div>
-
-            }
-            </>
-          ) : (
-            <>
-             <div className="bar">
-          <BsSearch />
-          <input type="text" placeholder="Search for books" />
-          
-        </div>
-        <h1 className="text-center font-bold text-3xl mt-8" >Select your Branch</h1><br/>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 items-center justify-center text-center ">
-          
-          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Bio-Medical Engineering")}>
-
-              <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b2} /></div>
-              <h2 className="">Bio-Medical</h2>
+            
+          </>
+        ) : (
+          <>
+            <div className="bar">
+              <BsSearch />
+              <input type="text" placeholder="Search for books" />
             </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Bio-Technology")}>
+            <h1 className="text-center font-bold text-3xl mt-8">
+              Select your Branch
+            </h1>
+            <br />
 
-            <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b1} /></div>
-            <h2 className="">Bio-Technology</h2>
-            
-             </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Chemical Engineering")}>
-          
-            <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b4} /></div>
-            <h2 className="">Chemical</h2>
-            
-             </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Computer Science")}>
-      
-            <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b5} /></div>
-            <h2 className="">Computer Science</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 items-center justify-center text-center ">
+              <div
+                className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
+                onClick={() => openSemester("Bio-Medical Engineering")}
+              >
+                <div className="overflow-hidden">
+                  <img
+                    className="mb-3 cursor-pointer transition-all hover:scale-[105%]"
+                    alt="branches"
+                    src={b2}
+                  />
+                </div>
+                <h2 className="">Bio-Medical</h2>
               </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Electronics & Communication Engineering")}>
-  
-            <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b6} /></div>
-            <h2 className="">Electronics & Communication</h2>
-            
-             </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Electrical Engineering")}>
-
-            <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b7} /></div>
-            <h2 className="">Electrical</h2>
-            
-             </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Information Technology")}>
-
-            <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b8} /></div>
-            <h2 className="">Information Technology</h2>
-          </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Mechanical Engineering")}>
-    
-            <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b9} /></div>
-            <h2 className="">Mechanical</h2>
-             </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Metallurgy & Material Engineering")}>
-        
-            <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b10} /></div>
-            <h2 className="">Metallurgy & Material</h2>
-             </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Mining")}>
- 
-            <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b11} /></div>
-            <h2 className="">Mining</h2>
-             </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("Civil Engineering")}>
-   
-            <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b3} /></div>
-            <h2 className="">Civil</h2>
-             </div>
-          <div className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
-          onClick={() => openSemester("B.Arch")}>
-        
-            <div className="overflow-hidden"><img className="mb-3 cursor-pointer transition-all hover:scale-[105%]" alt="branches" src={b12} /></div>
-            <h2 className="">B.Arch</h2>
-             </div>
-          
-          
-        </div>
-
-            </>
-
-)
-
-          }
-          
+              <div
+                className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
+                onClick={() => openSemester("Bio-Technology")}
+              >
+                <div className="overflow-hidden">
+                  <img
+                    className="mb-3 cursor-pointer transition-all hover:scale-[105%]"
+                    alt="branches"
+                    src={b1}
+                  />
+                </div>
+                <h2 className="">Bio-Technology</h2>
+              </div>
+              <div
+                className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
+                onClick={() => openSemester("Chemical Engineering")}
+              >
+                <div className="overflow-hidden">
+                  <img
+                    className="mb-3 cursor-pointer transition-all hover:scale-[105%]"
+                    alt="branches"
+                    src={b4}
+                  />
+                </div>
+                <h2 className="">Chemical</h2>
+              </div>
+              <div
+                className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
+                onClick={() => openSemester("Computer Science")}
+              >
+                <div className="overflow-hidden">
+                  <img
+                    className="mb-3 cursor-pointer transition-all hover:scale-[105%]"
+                    alt="branches"
+                    src={b5}
+                  />
+                </div>
+                <h2 className="">Computer Science</h2>
+              </div>
+              <div
+                className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
+                onClick={() =>
+                  openSemester("Electronics & Communication Engineering")
+                }
+              >
+                <div className="overflow-hidden">
+                  <img
+                    className="mb-3 cursor-pointer transition-all hover:scale-[105%]"
+                    alt="branches"
+                    src={b6}
+                  />
+                </div>
+                <h2 className="">Electronics & Communication</h2>
+              </div>
+              <div
+                className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
+                onClick={() => openSemester("Electrical Engineering")}
+              >
+                <div className="overflow-hidden">
+                  <img
+                    className="mb-3 cursor-pointer transition-all hover:scale-[105%]"
+                    alt="branches"
+                    src={b7}
+                  />
+                </div>
+                <h2 className="">Electrical</h2>
+              </div>
+              <div
+                className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
+                onClick={() => openSemester("Information Technology")}
+              >
+                <div className="overflow-hidden">
+                  <img
+                    className="mb-3 cursor-pointer transition-all hover:scale-[105%]"
+                    alt="branches"
+                    src={b8}
+                  />
+                </div>
+                <h2 className="">Information Technology</h2>
+              </div>
+              <div
+                className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
+                onClick={() => openSemester("Mechanical Engineering")}
+              >
+                <div className="overflow-hidden">
+                  <img
+                    className="mb-3 cursor-pointer transition-all hover:scale-[105%]"
+                    alt="branches"
+                    src={b9}
+                  />
+                </div>
+                <h2 className="">Mechanical</h2>
+              </div>
+              <div
+                className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
+                onClick={() =>
+                  openSemester("Metallurgy & Material Engineering")
+                }
+              >
+                <div className="overflow-hidden">
+                  <img
+                    className="mb-3 cursor-pointer transition-all hover:scale-[105%]"
+                    alt="branches"
+                    src={b10}
+                  />
+                </div>
+                <h2 className="">Metallurgy & Material</h2>
+              </div>
+              <div
+                className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
+                onClick={() => openSemester("Mining")}
+              >
+                <div className="overflow-hidden">
+                  <img
+                    className="mb-3 cursor-pointer transition-all hover:scale-[105%]"
+                    alt="branches"
+                    src={b11}
+                  />
+                </div>
+                <h2 className="">Mining</h2>
+              </div>
+              <div
+                className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
+                onClick={() => openSemester("Civil Engineering")}
+              >
+                <div className="overflow-hidden">
+                  <img
+                    className="mb-3 cursor-pointer transition-all hover:scale-[105%]"
+                    alt="branches"
+                    src={b3}
+                  />
+                </div>
+                <h2 className="">Civil</h2>
+              </div>
+              <div
+                className="flex flex-col items-center font-medium text-[1rem] p-3 m-4 bg-white rounded-lg shadow-lg"
+                onClick={() => openSemester("B.Arch")}
+              >
+                <div className="overflow-hidden">
+                  <img
+                    className="mb-3 cursor-pointer transition-all hover:scale-[105%]"
+                    alt="branches"
+                    src={b12}
+                  />
+                </div>
+                <h2 className="">B.Arch</h2>
+              </div>
+            </div>
+          </>
+        )}
       </main>
-
-      </>
+      {selectedBranch && (
+              <div className="relative h-[4rem] z-1">
+              <Button
+                className="backbtn bg-blue-500 w-auto rounded-md p-3 text-white font-bold outline-none hover:bg-blue-600 hover:ease-out active:shadow-lg transition-all absolute top-0 right-[50%] translate-x-1/2 -mt-[8rem] ripple"
+                onClick={closeSemester}
+              >
+                Back to Home
+              </Button>
+              </div>
+            )}
+    </>
   );
 };
 

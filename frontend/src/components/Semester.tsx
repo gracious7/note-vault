@@ -14,9 +14,9 @@ const Semester: React.FC<BranchProps> = ({ branch }) => {
 
   };
 
-  const gotosem = () => {
-    setBranchAndSem(null);
-  };
+  // const gotosem = () => {
+  //   setBranchAndSem(null);
+  // };
 
   const goBack = () => {
     setBranchAndSem(null);
@@ -25,7 +25,7 @@ const Semester: React.FC<BranchProps> = ({ branch }) => {
   return (
     <div className="">
       {branchAndSem ? (
-        <Subjects branch={branch} semester={branchAndSem}/>
+        <Subjects branch={branch} semester={branchAndSem} />
       ) : (
         <main className="dashboard full-screen m-12">
           <section className="my-8 text-center">
@@ -48,9 +48,9 @@ const Semester: React.FC<BranchProps> = ({ branch }) => {
       )}
       <div className="">
         {branchAndSem && (
-          <div className="base-button btn2">
+          <div className="relative h-[4rem] z-20">
             <Button
-              className="bg-blue-600 w-auto self-center rounded-md p-3 text-white font-bold outline-none active:translate-y-1 active:shadow-lg transition-all"
+              className="bg-blue-500 hover:bg-blue-600 w-auto self-center rounded-md p-3 text-white font-bold outline-none active:shadow-lg transition-all absolute top-0 right-[50%] translate-x-1/2 mt-[1rem] ripple"
               onClick={goBack}
             >
               Back to Semester

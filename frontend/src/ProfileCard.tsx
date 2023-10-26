@@ -8,7 +8,7 @@ import {
 import { Link } from "@nextui-org/react";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
-import { FaSquareThreads } from "react-icons/fa6";
+// import { FaGithub } from "react-icons/fa6";
 
 const ProfileCard = () => {
   return (
@@ -38,7 +38,7 @@ const ProfileCard = () => {
               <FaGithub size={25} />
             </Link>
             <Link href="#">
-              <FaSquareThreads size={25} />
+              <FaGithub size={25} />
             </Link>
           </CardFooter>
         </Card>
@@ -66,7 +66,7 @@ const ProfileCard = () => {
               <FaGithub size={25} />
             </Link>
             <Link href="#">
-              <FaSquareThreads size={25} />
+              <FaGithub size={25} />
             </Link>
           </CardFooter>
         </Card>
@@ -94,7 +94,7 @@ const ProfileCard = () => {
               <FaGithub size={25} />
             </Link>
             <Link href="#">
-              <FaSquareThreads size={25} />
+              <FaGithub size={25} />
             </Link>
           </CardFooter>
         </Card>
