@@ -186,7 +186,7 @@ const arr: DataType[] = [
 
 ];
 
-const itemsPerPage = 5;
+const itemsPerPage = "5";
 
 
 const TopContributer = () => {
@@ -197,7 +197,8 @@ const TopContributer = () => {
       columns,
       data,
       "dashboard-product-box bg-white shadow-lg",
-      true,
+    
+      // true,
       itemsPerPage // Corrected argument order
     ),
     []

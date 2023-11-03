@@ -1,1 +1,0 @@
-import{j as e}from"./index-8d2b8362.js";import t from"./PdfViewer-fb57bbad.js";function f(){const r="https://drive.google.com/file/d/1psjWabKw5acLgLJzevwetmI0DV3jlxfa/preview";return e.jsx("div",{className:"min-h-screen flex items-center justify-center",children:e.jsx(t,{pdfUrl:r})})}export{f as default};
